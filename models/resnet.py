@@ -50,6 +50,9 @@ class ResNet18(torchvision.models.resnet.ResNet):
         del self.fc
         self.conv1 = nn.Conv2d(1, 64, kernel_size=7, stride=2, padding=3, bias=False)
         self.final_feat_dim = 512
+        #自己定义一个4分类的分类头
+        self.fc_custom = nn.Linear(512, 4)
+
 
     def load_sl_official_weights(self, progress=True):
         state_dict = load_state_dict_from_url(torchvision.models.resnet.model_urls['resnet18'],
@@ -78,6 +81,8 @@ class ResNet18(torchvision.models.resnet.ResNet):
         x = self.avgpool(x)
         x = torch.flatten(x, 1)
         # x = self.fc(x)
+        # 使用自定义的全连接层
+        #x = self.fc_custom(x)
 
         return x
 

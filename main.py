@@ -4,7 +4,7 @@ import sys
 import json
 import warnings
 warnings.filterwarnings("ignore")
-
+from MulticoreTSNE import MulticoreTSNE as TSNE
 import math
 import time
 import random
@@ -45,7 +45,7 @@ def parse_args():
     
     # optimization
     parser.add_argument('--optimizer', type=str, default='adam')
-    parser.add_argument('--epochs', type=int, default=400)
+    parser.add_argument('--epochs', type=int, default=20)
     parser.add_argument('--learning_rate', type=float, default=1e-3)
     parser.add_argument('--lr_decay_epochs', type=str, default='120,160')
     parser.add_argument('--lr_decay_rate', type=float, default=0.1)
@@ -67,8 +67,8 @@ def parse_args():
     # dataset
     parser.add_argument('--dataset', type=str, default='icbhi')
     parser.add_argument('--data_folder', type=str, default='./data/')
-    parser.add_argument('--batch_size', type=int, default=128)
-    parser.add_argument('--num_workers', type=int, default=8)
+    parser.add_argument('--batch_size', type=int, default=4)
+    parser.add_argument('--num_workers', type=int, default=4)
     # icbhi dataset
     parser.add_argument('--class_split', type=str, default='lungsound',
                         help='lungsound: (normal, crackles, wheezes, both), diagnosis: (healthy, chronic diseases, non-chronic diseases)')
@@ -184,6 +184,7 @@ def parse_args():
     return args
 
 
+#准备和配置与训练相关的数据加载流程，包括选择数据集、数据转换、采样方式
 def set_loader(args):
     if args.dataset == 'icbhi':
         # get rawo information and calculate mean and std for normalization
@@ -218,7 +219,7 @@ def set_loader(args):
         args.class_nums = train_dataset.class_nums
     else:
         raise NotImplemented    
-    
+    #如果 args.weighted_sampler 为 True，则计算每个样本的权重，以便在训练中使用加权随机采样。如果 False，则设置 sampler 为 None，表示不使用加权采样
     if args.weighted_sampler:
         reciprocal_weights = []
         for idx in range(len(train_dataset)):
@@ -235,7 +236,7 @@ def set_loader(args):
 
     return train_loader, val_loader, args
 
-
+#创建一个适用于本项目深度学习任务的模型，并配置好相关的组件和参数，以便进行训练
 def set_model(args):    
     kwargs = {}
     if args.model == 'ast':
@@ -404,7 +405,7 @@ def train(train_loader, model, classifier, projector, criterion, optimizer, epoc
 
     return losses.avg, top1.avg
 
-
+#负责训练模型，通过多次调用这个函数可以进行多个训练周期，逐渐提高模型的性能
 def validate(val_loader, model, classifier, criterion, args, best_acc, best_model=None):
     save_bool = False
     model.eval()
