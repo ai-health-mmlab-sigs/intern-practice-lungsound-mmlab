@@ -3,7 +3,7 @@ import numpy as np
 import nlpaug.augmenter.audio as naa
 
 import torch
-from torchvision.utils import _log_api_usage_once
+# from torchvision.utils import _log_api_usage_once
 from torchvision.transforms import transforms
 from torchaudio import transforms as T
 from .time_warping import sparse_image_warp
@@ -117,7 +117,7 @@ class SpecAugment(torch.nn.Module):
     #def __init__(self, policy, zero_mean_normalized=False):
     def __init__(self, args):
         super().__init__()
-        _log_api_usage_once(self)
+        # _log_api_usage_once(self)
 
         self.policy = args.specaug_policy
         self.mask = args.specaug_mask

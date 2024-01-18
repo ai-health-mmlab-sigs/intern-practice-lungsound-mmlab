@@ -11,6 +11,8 @@ import random
 import pickle
 import argparse
 import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 import torch
 import torch.nn as nn
@@ -443,7 +445,7 @@ def validate(val_loader, model, classifier, criterion, args, best_acc, best_mode
                     elif labels[idx].item() != 0 and preds[idx].item() > 0:  # abnormal
                         hits[labels[idx].item()] += 1.0
 
-            sp, se, sc = get_score(hits, counts)
+            sp, se, sc, cm = get_score(hits, counts)
 
             batch_time.update(time.time() - end)
             end = time.time()
@@ -463,6 +465,13 @@ def validate(val_loader, model, classifier, criterion, args, best_acc, best_mode
 
     print(' * S_p: {:.2f}, S_e: {:.2f}, Score: {:.2f} (Best S_p: {:.2f}, S_e: {:.2f}, Score: {:.2f})'.format(sp, se, sc, best_acc[0], best_acc[1], best_acc[-1]))
     print(' * Acc@1 {top1.avg:.2f}'.format(top1=top1))
+    
+    plt.figure(figsize=(10, 7))
+    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues')
+    plt.ylabel('True Label')
+    plt.xlabel('Predicted Label')
+    plt.title('Confusion Matrix')
+    plt.show()#@matrix
 
     return best_acc, best_model, save_bool
 

@@ -6,6 +6,7 @@ from tkinter import W
 import pandas as pd
 import numpy as np
 from tqdm import tqdm
+from sklearn.metrics import confusion_matrix
 
 import cv2
 import cmapy
@@ -499,10 +500,14 @@ def get_score(hits, counts, pflag=False):
     # abnormal accuracy
     se = sum(hits[1:]) / (sum(counts[1:]) + 1e-10) * 100
     sc = (sp + se) / 2.0
+    # confusion matrix
+    cm = confusion_matrix(hits, counts)
 
     if pflag:
         # print("************* Metrics ******************")
         print("S_p: {}, S_e: {}, Score: {}".format(sp, se, sc))
+        print("Confusion Matrix:")
+        print(cm)#@matrix
 
-    return sp, se, sc
+    return sp, se, sc, cm
 # ==========================================================================
