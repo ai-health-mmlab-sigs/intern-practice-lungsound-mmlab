@@ -493,6 +493,7 @@ def concat_augmentation(classwise_cycle_list, cycle_list, scale=1.):
 
 # ==========================================================================
 """ evaluation metric """
+
 def get_score(hits, counts, pflag=False):
     # normal accuracy
     sp = hits[0] / (counts[0] + 1e-10) * 100

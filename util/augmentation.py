@@ -11,6 +11,7 @@ from .time_warping import sparse_image_warp
 __all__ = ['augment_raw_audio', 'SpecAugment']
 
 
+
 def augment_raw_audio(sample, sample_rate, args):
     """
     Raw audio data augmentation technique
@@ -21,13 +22,16 @@ def augment_raw_audio(sample, sample_rate, args):
     """
 
     """ 1) nlpaug """
+
     augment_list = [
         # naa.CropAug(sampling_rate=sample_rate)
-        naa.NoiseAug(), # apply noise injection operation
-        naa.SpeedAug(), # apply speed adjustment operation
-        naa.LoudnessAug(factor=(0.5, 2)), # apply adjusting loudness operation
-        naa.VtlpAug(sampling_rate=sample_rate, zone=(0.0, 1.0)), # apply vocal tract length perturbation (VTLP) operation
-        naa.PitchAug(sampling_rate=sample_rate, factor=(-1,3)) # apply pitch adjustment operation
+        naa.NoiseAug(), # apply noise injection operation 注入噪声到音频信号中。
+        naa.SpeedAug(), # apply speed adjustment operation 模拟不同的语速，使模型更适应多样的语音速度
+        naa.LoudnessAug(factor=(0.5, 2)), # apply adjusting loudness operation 模拟不同的声音强度
+        naa.VtlpAug(sampling_rate=sample_rate, zone=(0.0, 1.0)), # apply vocal tract length perturbation (VTLP) operation 模拟说话者的不同，改变声道长度，使模型更能适应不同的说话者
+        naa.PitchAug(sampling_rate=sample_rate, factor=(-1,3)), # apply pitch adjustment operation 模拟不同的音高，使模型更适应不同音调的语音
+        # @data_aug
+        naa.CropAug(sampling_rate=sample_rate, zone=(0.0, 1.0))
     ]
 
     # randomly sample augmentation

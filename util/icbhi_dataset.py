@@ -49,9 +49,10 @@ class ICBHIDataset(Dataset):
         self.file_to_device = {}
         self.device_to_id = {'Meditron': 0, 'LittC2SE': 1, 'Litt3200': 2, 'AKGC417L': 3}
         self.device_id_to_patient = {0: [], 1: [], 2: [], 3: []}
-
         filenames = os.listdir(data_folder)
+        self.file_list = [f for f in filenames if '.wav' in f]
         filenames =set([f.strip().split('.')[0] for f in filenames if '.wav' in f or '.txt' in f])
+
         for f in filenames:
             f += '.wav'
             # get the total number of devices from original dataset (icbhi dataset has 4 stethoscope devices)
@@ -252,7 +253,7 @@ class ICBHIDataset(Dataset):
 
     def __getitem__(self, index):
         audio_images, label, metadata = self.audio_images[index][0], self.audio_images[index][1], self.metadata[index]
-
+        # f_name = self.file_list[index]
         if self.args.raw_augment and self.train_flag and not self.mean_std:
             aug_idx = random.randint(0, self.args.raw_augment)
             audio_image = audio_images[aug_idx]
