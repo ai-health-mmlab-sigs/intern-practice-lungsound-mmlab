@@ -415,6 +415,9 @@ def validate(val_loader, model, classifier, criterion, args, best_acc, best_mode
     top1 = AverageMeter()
     hits, counts = [0.0] * args.n_cls, [0.0] * args.n_cls
 
+    #@matrix
+    classes = np.zeros((args.n_cls + 1, args.n_cls + 1), dtype=int)
+
     with torch.no_grad():
         end = time.time()
         for idx, (images, labels, metadata) in enumerate(val_loader):
@@ -432,8 +435,16 @@ def validate(val_loader, model, classifier, criterion, args, best_acc, best_mode
             top1.update(acc1[0], bsz)
 
             _, preds = torch.max(output, 1)
+            
             for idx in range(preds.shape[0]):
                 counts[labels[idx].item()] += 1.0
+                
+                #@matrix
+                cur_label = labels[idx].item()
+                cur_pred = preds[idx].item()
+                if (0 <= cur_label <= args.n_cls and 0 <= cur_pred <= args.n_cls):
+                    classes[cur_label][cur_pred] += 1
+
                 if not args.two_cls_eval:
                     if preds[idx].item() == labels[idx].item():
                         hits[labels[idx].item()] += 1.0
@@ -443,7 +454,8 @@ def validate(val_loader, model, classifier, criterion, args, best_acc, best_mode
                     elif labels[idx].item() != 0 and preds[idx].item() > 0:  # abnormal
                         hits[labels[idx].item()] += 1.0
 
-            sp, se, sc = get_score(hits, counts)
+            #@matrix
+            sp, se, sc, confusion_matrix = get_score(hits, counts)
 
             batch_time.update(time.time() - end)
             end = time.time()
@@ -455,6 +467,8 @@ def validate(val_loader, model, classifier, criterion, args, best_acc, best_mode
                       'Acc@1 {top1.val:.3f} ({top1.avg:.3f})'.format(
                        idx + 1, len(val_loader), batch_time=batch_time,
                        loss=losses, top1=top1))
+                if confusion_matrix is not None:
+                    print(confusion_matrix)
     
     if sc > best_acc[-1] and se > 5:
         save_bool = True

@@ -1,0 +1,233 @@
+recurrenter: LSTM
+regressor: ResnetRegressor
+criterion: L1Loss
+optimizer: Adam
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.45407
+0.3 Success ratio: 0.56168
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.87139
+abnormal_samples_file: cq_debug_info/abnormal_samples.txt
+batch_size: 1
+categories: 100
+cosine: True
+data_folder_path: data/icbhi_dataset/audio_test_data
+data_slice: 100
+debug_dataset: False
+debug_dir_path: cq_debug_info
+debug_lstm: False
+debug_performance: False
+debug_preprocessor: False
+debug_training: False
+epochs: 50
+kernel_size: 3
+learning_rate: 0.01
+lr_decay_rate: 0.1
+lstm_bidirection: True
+lstm_rr_save_dir: lstm_rr_save
+num_workers: 0
+padding: 1
+print_frequency: 100
+resz: None
+specaug_mask: mean
+specaug_policy: LB
+split_file_path: data/icbhi_dataset/official_split.txt
+std_audio_len: 998
+std_audio_time: 10
+std_fbank_len: 998
+std_fbank_width: 128
+std_lstm_len: 998
+std_lstm_width: 128
+std_sample_rate: 16000
+stride: 1
+use_augment: False
+use_fbank: True
+warm: True
+warm_epochs: 10
+warmup_from: 0.001
+warmup_to: 0.009046039886902862
+
+
+
+
+
+
+
+
+
+
+
+recurrenter: LSTM
+regressor: ResnetRegressor
+criterion: L1Loss
+optimizer: Adam
+0.1 Success ratio: 0.21522
+0.2 Success ratio: 0.42520
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.85827
+abnormal_samples_file: cq_debug_info/abnormal_samples.txt
+batch_size: 1
+categories: 100
+cosine: True
+data_folder_path: data/icbhi_dataset/audio_test_data
+data_slice: 100
+debug_dataset: False
+debug_dir_path: cq_debug_info
+debug_lstm: False
+debug_performance: False
+debug_preprocessor: False
+debug_training: False
+epochs: 50
+kernel_size: 3
+learning_rate: 0.01
+lr_decay_rate: 0.1
+lstm_bidirection: False
+lstm_rr_save_dir: lstm_rr_save
+num_workers: 0
+padding: 1
+print_frequency: 100
+resz: None
+specaug_mask: mean
+specaug_policy: LB
+split_file_path: data/icbhi_dataset/official_split.txt
+std_audio_len: 998
+std_audio_time: 10
+std_fbank_len: 998
+std_fbank_width: 128
+std_lstm_len: 998
+std_lstm_width: 128
+std_sample_rate: 16000
+stride: 1
+use_augment: False
+use_fbank: True
+warm: True
+warm_epochs: 10
+warmup_from: 0.001
+warmup_to: 0.009046039886902862
+
+
+
+
+
+
+
+
+
+
+recurrenter: LSTM
+regressor: SimpleRegressor
+criterion: L1Loss
+optimizer: Adam
+0.1 Success ratio: 0.14173
+0.2 Success ratio: 0.30971
+0.3 Success ratio: 0.45932
+0.4 Success ratio: 0.55643
+0.5 Success ratio: 0.64304
+abnormal_samples_file: cq_debug_info/abnormal_samples.txt
+batch_size: 1
+categories: 100
+cosine: True
+data_folder_path: data/icbhi_dataset/audio_test_data
+data_slice: 100
+debug_dataset: False
+debug_dir_path: cq_debug_info
+debug_lstm: False
+debug_performance: False
+debug_preprocessor: False
+debug_training: False
+epochs: 50
+kernel_size: 3
+learning_rate: 0.01
+lr_decay_rate: 0.1
+lstm_bidirection: False
+lstm_rr_save_dir: lstm_rr_save
+num_workers: 0
+padding: 1
+print_frequency: 100
+resz: None
+specaug_mask: mean
+specaug_policy: LB
+split_file_path: data/icbhi_dataset/official_split.txt
+std_audio_len: 998
+std_audio_time: 10
+std_fbank_len: 998
+std_fbank_width: 128
+std_lstm_len: 998
+std_lstm_width: 128
+std_sample_rate: 16000
+stride: 1
+use_augment: False
+use_fbank: True
+warm: True
+warm_epochs: 10
+warmup_from: 0.001
+warmup_to: 0.009046039886902862
+
+
+
+
+
+
+
+
+
+
+recurrenter: LSTM
+regressor: SimpleRegressor
+criterion: L1Loss
+optimizer: Adam
+0.1 Success ratio: 0.32059
+0.2 Success ratio: 0.53983
+0.3 Success ratio: 0.66539
+0.4 Success ratio: 0.77820
+0.5 Success ratio: 0.82537
+abnormal_samples_file: cq_debug_info/abnormal_samples.txt
+batch_size: 1
+categories: 100
+cosine: True
+data_folder_path: data/icbhi_dataset/audio_test_data
+data_slice: 3
+debug_dataset: False
+debug_dir_path: cq_debug_info
+debug_lstm: False
+debug_performance: False
+debug_preprocessor: False
+debug_training: False
+epochs: 50
+kernel_size: 3
+learning_rate: 0.01
+lr_decay_rate: 0.1
+lstm_bidirection: False
+lstm_rr_save_dir: lstm_rr_save
+num_workers: 0
+padding: 1
+print_frequency: 100
+resz: None
+specaug_mask: mean
+specaug_policy: LB
+split_file_path: data/icbhi_dataset/official_split.txt
+std_audio_len: 998
+std_audio_time: 10
+std_fbank_len: 998
+std_fbank_width: 128
+std_lstm_len: 998
+std_lstm_width: 128
+std_sample_rate: 16000
+stride: 1
+use_augment: False
+use_fbank: True
+warm: True
+warm_epochs: 10
+warmup_from: 0.001
+warmup_to: 0.009046039886902862
+
+
+
+
+
+
+
+
+
+
