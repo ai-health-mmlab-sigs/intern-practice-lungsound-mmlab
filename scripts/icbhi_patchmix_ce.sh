@@ -1,18 +1,19 @@
 
 MODEL="ast"
 SEED="1"
+EPOCHS='100'
 
 for s in $SEED
 do
     for m in $MODEL
     do
         TAG="bs8_lr5e-5_ep50_seed${s}"
-        CUDA_VISIBLE_DEVICES=0 python main.py --tag $TAG \
+        CUDA_VISIBLE_DEVICES=0 python3 main.py --tag $TAG \
                                         --dataset icbhi \
                                         --seed $s \
                                         --class_split lungsound \
                                         --n_cls 4 \
-                                        --epochs 50 \
+                                        --epochs $EPOCHS \
                                         --batch_size 8 \
                                         --optimizer adam \
                                         --learning_rate 5e-5 \

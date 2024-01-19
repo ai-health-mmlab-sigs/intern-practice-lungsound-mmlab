@@ -1,0 +1,3844 @@
+0.2 Success ratio :0.28205
+0.5 Success ratio :0.75937
+Varence Loss: 3.06102
+
+0.2 Success ratio :0.25345
+0.5 Success ratio :0.72091
+Varence Loss: 2.95160
+
+0.2 Success ratio :0.45069
+0.5 Success ratio :0.82939
+Varence Loss: 3.89753
+
+0.2 Success ratio :0.42604
+0.5 Success ratio :0.88264
+Varence Loss: 2.72603
+
+0.2 Success ratio :0.40237
+0.5 Success ratio :0.86884
+Varence Loss: 2.70560
+
+0.2 Success ratio :0.40039
+0.5 Success ratio :0.86588
+Varence Loss: 2.71160
+
+0.2 Success ratio :0.00000
+0.5 Success ratio :0.00000
+Varence Loss: nan
+
+0.2 Success ratio :0.27921
+0.5 Success ratio :0.72673
+Varence Loss: 2.97234
+
+0.2 Success ratio :0.35644
+0.5 Success ratio :0.80990
+Varence Loss: 3.18305
+
+0.2 Success ratio :0.34059
+0.5 Success ratio :0.80000
+Varence Loss: 4.37914
+
+0.2 Success ratio :0.42079
+0.5 Success ratio :0.88020
+Varence Loss: 2.63909
+
+0.2 Success ratio :0.40198
+0.5 Success ratio :0.87327
+Varence Loss: 2.62314
+
+0.2 Success ratio :0.39604
+0.5 Success ratio :0.86832
+Varence Loss: 2.62255
+
+0.2 Success ratio :0.38812
+0.5 Success ratio :0.86832
+Varence Loss: 2.62304
+
+0.2 Success ratio :0.00000
+0.5 Success ratio :0.00000
+Varence Loss: nan
+
+0.2 Success ratio :0.04653
+0.5 Success ratio :0.10396
+Varence Loss: 47.37615
+
+0.2 Success ratio :0.00000
+0.5 Success ratio :0.00000
+Varence Loss: nan
+
+0.2 Success ratio :0.44356
+0.5 Success ratio :0.89307
+Varence Loss: 2.69654
+
+0.2 Success ratio :0.50495
+0.5 Success ratio :0.88911
+Varence Loss: 2.80696
+
+0.2 Success ratio :0.00000
+0.5 Success ratio :0.00000
+Varence Loss: nan
+
+0.2 Success ratio :0.10256
+0.5 Success ratio :0.15385
+Varence Loss: 11.91223
+
+0.2 Success ratio :0.28205
+0.5 Success ratio :0.74359
+Varence Loss: 3.52966
+
+0.2 Success ratio :0.19474
+0.5 Success ratio :0.47368
+Varence Loss: 5.22367
+
+0.2 Success ratio :0.15789
+0.5 Success ratio :0.43684
+Varence Loss: 5.02587
+
+0.2 Success ratio :0.17368
+0.5 Success ratio :0.55789
+Varence Loss: 3.84334
+
+0.2 Success ratio :0.16316
+0.5 Success ratio :0.36842
+Varence Loss: 5.44544
+
+0.2 Success ratio :0.14737
+0.5 Success ratio :0.28947
+Varence Loss: 7.92613
+
+0.2 Success ratio :0.17368
+0.5 Success ratio :0.41053
+Varence Loss: 4.76324
+
+0.2 Success ratio :0.00000
+0.5 Success ratio :0.05263
+Varence Loss: 11.40040
+
+0.2 Success ratio :0.17368
+0.5 Success ratio :0.70526
+Varence Loss: 6.94301
+
+0.2 Success ratio :0.47895
+0.5 Success ratio :0.84737
+Varence Loss: 4.54843
+
+0.2 Success ratio :0.41053
+0.5 Success ratio :0.86842
+Varence Loss: 3.46216
+
+0.2 Success ratio :0.43684
+0.5 Success ratio :0.90526
+Varence Loss: 3.03702
+
+0.2 Success ratio :0.46842
+0.5 Success ratio :0.86842
+Varence Loss: 2.89482
+
+0.2 Success ratio :0.44211
+0.5 Success ratio :0.84737
+Varence Loss: 2.85142
+
+0.2 Success ratio :0.42105
+0.5 Success ratio :0.84211
+Varence Loss: 2.83669
+
+0.2 Success ratio :0.42105
+0.5 Success ratio :0.84211
+Varence Loss: 2.83220
+
+0.2 Success ratio :0.41579
+0.5 Success ratio :0.84211
+Varence Loss: 2.83115
+
+0.2 Success ratio :0.41579
+0.5 Success ratio :0.84211
+Varence Loss: 2.83115
+
+0.2 Success ratio :0.41579
+0.5 Success ratio :0.84211
+Varence Loss: 2.83115
+
+0.2 Success ratio :0.40000
+0.5 Success ratio :0.83158
+Varence Loss: 2.80018
+
+0.2 Success ratio :0.41579
+0.5 Success ratio :0.83158
+Varence Loss: 2.81926
+
+0.2 Success ratio :0.41579
+0.5 Success ratio :0.83158
+Varence Loss: 2.82642
+
+0.2 Success ratio :0.41579
+0.5 Success ratio :0.83158
+Varence Loss: 2.82928
+
+0.2 Success ratio :0.41579
+0.5 Success ratio :0.83158
+Varence Loss: 2.83011
+
+0.2 Success ratio :0.41579
+0.5 Success ratio :0.84211
+Varence Loss: 2.83032
+
+0.2 Success ratio :0.41579
+0.5 Success ratio :0.84211
+Varence Loss: 2.83032
+
+0.2 Success ratio :0.41579
+0.5 Success ratio :0.84211
+Varence Loss: 2.83032
+
+0.2 Success ratio :0.41579
+0.5 Success ratio :0.84211
+Varence Loss: 2.83032
+
+0.2 Success ratio :0.41579
+0.5 Success ratio :0.83158
+Varence Loss: 2.82928
+
+0.2 Success ratio :0.41579
+0.5 Success ratio :0.83158
+Varence Loss: 2.82928
+
+0.1 Success ratio: 0.23077
+0.2 Success ratio: 0.51282
+0.3 Success ratio: 0.66667
+0.4 Success ratio: 0.66667
+0.5 Success ratio: 0.71795
+Varence Loss: 3.39729
+
+0.1 Success ratio: 0.07692
+0.2 Success ratio: 0.20513
+0.3 Success ratio: 0.43590
+0.4 Success ratio: 0.56410
+0.5 Success ratio: 0.84615
+Varence Loss: 1.76621
+
+0.1 Success ratio: 0.20513
+0.2 Success ratio: 0.46154
+0.3 Success ratio: 0.58974
+0.4 Success ratio: 0.87179
+0.5 Success ratio: 0.97436
+Varence Loss: 2.53001
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.07692
+0.3 Success ratio: 0.12821
+0.4 Success ratio: 0.30769
+0.5 Success ratio: 0.64103
+Varence Loss: 7.80132
+
+0.1 Success ratio: 0.28205
+0.2 Success ratio: 0.56410
+0.3 Success ratio: 0.79487
+0.4 Success ratio: 0.87179
+0.5 Success ratio: 1.00000
+Varence Loss: 1.58832
+
+0.1 Success ratio: 0.12821
+0.2 Success ratio: 0.23077
+0.3 Success ratio: 0.33333
+0.4 Success ratio: 0.79487
+0.5 Success ratio: 0.89744
+Varence Loss: 2.02710
+
+0.1 Success ratio: 0.07368
+0.2 Success ratio: 0.16842
+0.3 Success ratio: 0.28421
+0.4 Success ratio: 0.37368
+0.5 Success ratio: 0.48421
+Varence Loss: 3.86343
+
+0.1 Success ratio: 0.08421
+0.2 Success ratio: 0.15263
+0.3 Success ratio: 0.27895
+0.4 Success ratio: 0.37368
+0.5 Success ratio: 0.46842
+Varence Loss: 3.93627
+
+0.1 Success ratio: 0.13684
+0.2 Success ratio: 0.26842
+0.3 Success ratio: 0.43684
+0.4 Success ratio: 0.53684
+0.5 Success ratio: 0.65789
+Varence Loss: 3.26475
+
+0.1 Success ratio: 0.06842
+0.2 Success ratio: 0.17895
+0.3 Success ratio: 0.31579
+0.4 Success ratio: 0.39474
+0.5 Success ratio: 0.52105
+Varence Loss: 3.92603
+
+0.1 Success ratio: 0.14737
+0.2 Success ratio: 0.23684
+0.3 Success ratio: 0.42105
+0.4 Success ratio: 0.61053
+0.5 Success ratio: 0.79474
+Varence Loss: 4.75178
+
+0.1 Success ratio: 0.23158
+0.2 Success ratio: 0.38947
+0.3 Success ratio: 0.53158
+0.4 Success ratio: 0.68421
+0.5 Success ratio: 0.78421
+Varence Loss: 3.68743
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.01053
+0.3 Success ratio: 0.01053
+0.4 Success ratio: 0.05263
+0.5 Success ratio: 0.17368
+Varence Loss: 9.45581
+
+0.1 Success ratio: 0.15263
+0.2 Success ratio: 0.35263
+0.3 Success ratio: 0.51053
+0.4 Success ratio: 0.65789
+0.5 Success ratio: 0.79474
+Varence Loss: 4.67147
+
+0.1 Success ratio: 0.23684
+0.2 Success ratio: 0.45263
+0.3 Success ratio: 0.67368
+0.4 Success ratio: 0.77895
+0.5 Success ratio: 0.86316
+Varence Loss: 3.27391
+
+0.1 Success ratio: 0.21053
+0.2 Success ratio: 0.49474
+0.3 Success ratio: 0.61579
+0.4 Success ratio: 0.73158
+0.5 Success ratio: 0.86316
+Varence Loss: 2.92036
+
+0.1 Success ratio: 0.22105
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.72632
+0.5 Success ratio: 0.85789
+Varence Loss: 2.83711
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.73158
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81930
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81574
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81599
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.73158
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81625
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.73158
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81625
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.73158
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81664
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.73158
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81664
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.73158
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81704
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81639
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81614
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81526
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81503
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81418
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.44211
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81397
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.44211
+0.3 Success ratio: 0.61053
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81315
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.44211
+0.3 Success ratio: 0.61053
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81194
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.44211
+0.3 Success ratio: 0.61053
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81175
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.44211
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81098
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.44211
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81023
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.42632
+0.3 Success ratio: 0.61053
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.85789
+Varence Loss: 2.80950
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.43158
+0.3 Success ratio: 0.61053
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.85263
+Varence Loss: 2.80935
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.43158
+0.3 Success ratio: 0.61053
+0.4 Success ratio: 0.71579
+0.5 Success ratio: 0.85263
+Varence Loss: 2.80821
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.43158
+0.3 Success ratio: 0.61053
+0.4 Success ratio: 0.71579
+0.5 Success ratio: 0.85263
+Varence Loss: 2.80809
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.43158
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.71579
+0.5 Success ratio: 0.84737
+Varence Loss: 2.80741
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.43158
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.84737
+Varence Loss: 2.80686
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.43158
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.84737
+Varence Loss: 2.80621
+
+0.1 Success ratio: 0.23684
+0.2 Success ratio: 0.43158
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.71579
+0.5 Success ratio: 0.84737
+Varence Loss: 2.80611
+
+0.1 Success ratio: 0.23684
+0.2 Success ratio: 0.43158
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.71579
+0.5 Success ratio: 0.84737
+Varence Loss: 2.80558
+
+0.1 Success ratio: 0.23684
+0.2 Success ratio: 0.43158
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.71579
+0.5 Success ratio: 0.84737
+Varence Loss: 2.80504
+
+0.1 Success ratio: 0.23684
+0.2 Success ratio: 0.43158
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.71579
+0.5 Success ratio: 0.84737
+Varence Loss: 2.80496
+
+0.1 Success ratio: 0.23684
+0.2 Success ratio: 0.41579
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.71579
+0.5 Success ratio: 0.84737
+Varence Loss: 2.80444
+
+0.1 Success ratio: 0.23684
+0.2 Success ratio: 0.41579
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.71579
+0.5 Success ratio: 0.84737
+Varence Loss: 2.80444
+
+0.1 Success ratio: 0.23684
+0.2 Success ratio: 0.41579
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.71579
+0.5 Success ratio: 0.84737
+Varence Loss: 2.80437
+
+0.1 Success ratio: 0.23684
+0.2 Success ratio: 0.41579
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.71579
+0.5 Success ratio: 0.84737
+Varence Loss: 2.80437
+
+0.1 Success ratio: 0.22105
+0.2 Success ratio: 0.41579
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.71579
+0.5 Success ratio: 0.84737
+Varence Loss: 2.80385
+
+0.1 Success ratio: 0.22105
+0.2 Success ratio: 0.41579
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.71579
+0.5 Success ratio: 0.84737
+Varence Loss: 2.80385
+
+0.1 Success ratio: 0.22105
+0.2 Success ratio: 0.41579
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.71579
+0.5 Success ratio: 0.84737
+Varence Loss: 2.80385
+
+0.1 Success ratio: 0.22105
+0.2 Success ratio: 0.41579
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.71579
+0.5 Success ratio: 0.84737
+Varence Loss: 2.80385
+
+0.1 Success ratio: 0.22105
+0.2 Success ratio: 0.41579
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.71579
+0.5 Success ratio: 0.84737
+Varence Loss: 2.80385
+
+0.1 Success ratio: 0.06842
+0.2 Success ratio: 0.17368
+0.3 Success ratio: 0.32105
+0.4 Success ratio: 0.45789
+0.5 Success ratio: 0.51579
+Varence Loss: 3.71327
+
+0.1 Success ratio: 0.07895
+0.2 Success ratio: 0.14211
+0.3 Success ratio: 0.21579
+0.4 Success ratio: 0.32632
+0.5 Success ratio: 0.38947
+Varence Loss: 4.39842
+
+0.1 Success ratio: 0.04737
+0.2 Success ratio: 0.22105
+0.3 Success ratio: 0.31579
+0.4 Success ratio: 0.42105
+0.5 Success ratio: 0.56316
+Varence Loss: 3.69477
+
+0.1 Success ratio: 0.16842
+0.2 Success ratio: 0.30000
+0.3 Success ratio: 0.43684
+0.4 Success ratio: 0.55263
+0.5 Success ratio: 0.73684
+Varence Loss: 3.19224
+
+0.1 Success ratio: 0.08421
+0.2 Success ratio: 0.16316
+0.3 Success ratio: 0.28947
+0.4 Success ratio: 0.35789
+0.5 Success ratio: 0.45789
+Varence Loss: 4.05299
+
+0.1 Success ratio: 0.22105
+0.2 Success ratio: 0.40000
+0.3 Success ratio: 0.59474
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.81053
+Varence Loss: 2.80989
+
+0.1 Success ratio: 0.22632
+0.2 Success ratio: 0.51053
+0.3 Success ratio: 0.61579
+0.4 Success ratio: 0.73158
+0.5 Success ratio: 0.86316
+Varence Loss: 2.83548
+
+0.1 Success ratio: 0.22105
+0.2 Success ratio: 0.51053
+0.3 Success ratio: 0.63158
+0.4 Success ratio: 0.72632
+0.5 Success ratio: 0.86316
+Varence Loss: 2.78122
+
+0.1 Success ratio: 0.21053
+0.2 Success ratio: 0.51053
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.73684
+0.5 Success ratio: 0.86316
+Varence Loss: 2.76740
+
+0.1 Success ratio: 0.22105
+0.2 Success ratio: 0.39474
+0.3 Success ratio: 0.58947
+0.4 Success ratio: 0.70000
+0.5 Success ratio: 0.80526
+Varence Loss: 2.75989
+
+0.1 Success ratio: 0.20526
+0.2 Success ratio: 0.50526
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.73158
+0.5 Success ratio: 0.86316
+Varence Loss: 2.84937
+
+0.1 Success ratio: 0.25789
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.63158
+0.4 Success ratio: 0.77895
+0.5 Success ratio: 0.87895
+Varence Loss: 2.89901
+
+0.1 Success ratio: 0.25789
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.63158
+0.4 Success ratio: 0.77895
+0.5 Success ratio: 0.87895
+Varence Loss: 2.90912
+
+0.1 Success ratio: 0.27368
+0.2 Success ratio: 0.46842
+0.3 Success ratio: 0.63158
+0.4 Success ratio: 0.76842
+0.5 Success ratio: 0.87895
+Varence Loss: 2.91246
+
+0.1 Success ratio: 0.26842
+0.2 Success ratio: 0.46842
+0.3 Success ratio: 0.63158
+0.4 Success ratio: 0.76842
+0.5 Success ratio: 0.87895
+Varence Loss: 2.91469
+
+0.1 Success ratio: 0.27368
+0.2 Success ratio: 0.46842
+0.3 Success ratio: 0.63158
+0.4 Success ratio: 0.76842
+0.5 Success ratio: 0.87895
+Varence Loss: 2.91235
+
+0.1 Success ratio: 0.27368
+0.2 Success ratio: 0.46842
+0.3 Success ratio: 0.63158
+0.4 Success ratio: 0.76842
+0.5 Success ratio: 0.87895
+Varence Loss: 2.91231
+
+0.1 Success ratio: 0.27368
+0.2 Success ratio: 0.46842
+0.3 Success ratio: 0.63158
+0.4 Success ratio: 0.76842
+0.5 Success ratio: 0.87895
+Varence Loss: 2.91229
+
+0.1 Success ratio: 0.25789
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.63158
+0.4 Success ratio: 0.77895
+0.5 Success ratio: 0.87895
+Varence Loss: 2.90888
+
+0.1 Success ratio: 0.25789
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.63158
+0.4 Success ratio: 0.77895
+0.5 Success ratio: 0.87895
+Varence Loss: 2.90779
+
+0.1 Success ratio: 0.25789
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.63158
+0.4 Success ratio: 0.77895
+0.5 Success ratio: 0.87895
+Varence Loss: 2.90447
+
+0.1 Success ratio: 0.25789
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.63158
+0.4 Success ratio: 0.77895
+0.5 Success ratio: 0.87895
+Varence Loss: 2.90233
+
+0.1 Success ratio: 0.25789
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.63158
+0.4 Success ratio: 0.77895
+0.5 Success ratio: 0.87895
+Varence Loss: 2.90025
+
+0.1 Success ratio: 0.24737
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.63158
+0.4 Success ratio: 0.77895
+0.5 Success ratio: 0.87895
+Varence Loss: 2.89593
+
+0.1 Success ratio: 0.25263
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.62632
+0.4 Success ratio: 0.78421
+0.5 Success ratio: 0.87895
+Varence Loss: 2.89172
+
+0.1 Success ratio: 0.25263
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.62632
+0.4 Success ratio: 0.77895
+0.5 Success ratio: 0.87895
+Varence Loss: 2.88872
+
+0.1 Success ratio: 0.23158
+0.2 Success ratio: 0.48947
+0.3 Success ratio: 0.62632
+0.4 Success ratio: 0.77368
+0.5 Success ratio: 0.88421
+Varence Loss: 2.88155
+
+0.1 Success ratio: 0.23158
+0.2 Success ratio: 0.49474
+0.3 Success ratio: 0.62632
+0.4 Success ratio: 0.77368
+0.5 Success ratio: 0.88421
+Varence Loss: 2.87669
+
+0.1 Success ratio: 0.23158
+0.2 Success ratio: 0.49474
+0.3 Success ratio: 0.62632
+0.4 Success ratio: 0.77368
+0.5 Success ratio: 0.86316
+Varence Loss: 2.87206
+
+0.1 Success ratio: 0.23158
+0.2 Success ratio: 0.49474
+0.3 Success ratio: 0.62632
+0.4 Success ratio: 0.77368
+0.5 Success ratio: 0.86316
+Varence Loss: 2.87158
+
+0.1 Success ratio: 0.21053
+0.2 Success ratio: 0.49474
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.73158
+0.5 Success ratio: 0.86316
+Varence Loss: 2.85921
+
+0.1 Success ratio: 0.20526
+0.2 Success ratio: 0.50526
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.73158
+0.5 Success ratio: 0.86316
+Varence Loss: 2.85432
+
+0.1 Success ratio: 0.20526
+0.2 Success ratio: 0.50526
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.73158
+0.5 Success ratio: 0.85789
+Varence Loss: 2.84861
+
+0.1 Success ratio: 0.20526
+0.2 Success ratio: 0.52105
+0.3 Success ratio: 0.62632
+0.4 Success ratio: 0.73158
+0.5 Success ratio: 0.85789
+Varence Loss: 2.84370
+
+0.1 Success ratio: 0.20526
+0.2 Success ratio: 0.52632
+0.3 Success ratio: 0.62632
+0.4 Success ratio: 0.73158
+0.5 Success ratio: 0.85789
+Varence Loss: 2.83978
+
+0.1 Success ratio: 0.20526
+0.2 Success ratio: 0.52632
+0.3 Success ratio: 0.62632
+0.4 Success ratio: 0.72105
+0.5 Success ratio: 0.86316
+Varence Loss: 2.83638
+
+0.1 Success ratio: 0.22105
+0.2 Success ratio: 0.51053
+0.3 Success ratio: 0.62632
+0.4 Success ratio: 0.72105
+0.5 Success ratio: 0.86316
+Varence Loss: 2.83384
+
+0.1 Success ratio: 0.22632
+0.2 Success ratio: 0.50000
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.72632
+0.5 Success ratio: 0.86316
+Varence Loss: 2.83084
+
+0.1 Success ratio: 0.22632
+0.2 Success ratio: 0.50000
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.72632
+0.5 Success ratio: 0.86316
+Varence Loss: 2.82951
+
+0.1 Success ratio: 0.22632
+0.2 Success ratio: 0.47895
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.72632
+0.5 Success ratio: 0.86316
+Varence Loss: 2.82888
+
+0.1 Success ratio: 0.22105
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.72632
+0.5 Success ratio: 0.85789
+Varence Loss: 2.82639
+
+0.1 Success ratio: 0.22632
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.73158
+0.5 Success ratio: 0.85789
+Varence Loss: 2.82454
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.73158
+0.5 Success ratio: 0.85789
+Varence Loss: 2.82211
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81924
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.44211
+0.3 Success ratio: 0.61053
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81591
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.44211
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.85789
+Varence Loss: 2.81316
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.43158
+0.3 Success ratio: 0.61053
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.85263
+Varence Loss: 2.81068
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.43158
+0.3 Success ratio: 0.61053
+0.4 Success ratio: 0.71579
+0.5 Success ratio: 0.85263
+Varence Loss: 2.80853
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.43158
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.84737
+Varence Loss: 2.80675
+
+0.1 Success ratio: 0.24211
+0.2 Success ratio: 0.43158
+0.3 Success ratio: 0.60526
+0.4 Success ratio: 0.71053
+0.5 Success ratio: 0.84737
+Varence Loss: 2.80675
+
+0.1 Success ratio: 0.15263
+0.2 Success ratio: 0.32105
+0.3 Success ratio: 0.47368
+0.4 Success ratio: 0.56842
+0.5 Success ratio: 0.71053
+Varence Loss: 2.69538
+
+0.1 Success ratio: 0.06842
+0.2 Success ratio: 0.14737
+0.3 Success ratio: 0.23158
+0.4 Success ratio: 0.34211
+0.5 Success ratio: 0.43684
+Varence Loss: 4.55342
+
+0.1 Success ratio: 0.06316
+0.2 Success ratio: 0.13684
+0.3 Success ratio: 0.23684
+0.4 Success ratio: 0.33158
+0.5 Success ratio: 0.41053
+Varence Loss: 4.92633
+
+0.1 Success ratio: 0.05263
+0.2 Success ratio: 0.14211
+0.3 Success ratio: 0.20526
+0.4 Success ratio: 0.32632
+0.5 Success ratio: 0.38947
+Varence Loss: 5.15514
+
+0.1 Success ratio: 0.13158
+0.2 Success ratio: 0.25789
+0.3 Success ratio: 0.39474
+0.4 Success ratio: 0.52105
+0.5 Success ratio: 0.59474
+Varence Loss: 3.18099
+
+0.1 Success ratio: 0.28421
+0.2 Success ratio: 0.46316
+0.3 Success ratio: 0.65789
+0.4 Success ratio: 0.78947
+0.5 Success ratio: 0.86842
+Varence Loss: 2.95306
+
+0.1 Success ratio: 0.21579
+0.2 Success ratio: 0.49474
+0.3 Success ratio: 0.61579
+0.4 Success ratio: 0.77368
+0.5 Success ratio: 0.86316
+Varence Loss: 2.82610
+
+0.1 Success ratio: 0.21579
+0.2 Success ratio: 0.42105
+0.3 Success ratio: 0.60000
+0.4 Success ratio: 0.70000
+0.5 Success ratio: 0.83684
+Varence Loss: 2.64919
+
+0.1 Success ratio: 0.21579
+0.2 Success ratio: 0.51053
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.74211
+0.5 Success ratio: 0.86842
+Varence Loss: 2.78923
+
+0.1 Success ratio: 0.22632
+0.2 Success ratio: 0.48421
+0.3 Success ratio: 0.62105
+0.4 Success ratio: 0.73158
+0.5 Success ratio: 0.86316
+Varence Loss: 2.80418
+
+0.1 Success ratio: 0.23158
+0.2 Success ratio: 0.50526
+0.3 Success ratio: 0.62632
+0.4 Success ratio: 0.73684
+0.5 Success ratio: 0.85263
+Varence Loss: 2.74087
+
+0.1 Success ratio: 0.31579
+0.2 Success ratio: 0.46316
+0.3 Success ratio: 0.65263
+0.4 Success ratio: 0.76842
+0.5 Success ratio: 0.87368
+Varence Loss: 2.96846
+
+0.1 Success ratio: 0.25789
+0.2 Success ratio: 0.47368
+0.3 Success ratio: 0.63158
+0.4 Success ratio: 0.77895
+0.5 Success ratio: 0.87895
+Varence Loss: 2.90219
+
+0.1 Success ratio: 0.01282
+0.2 Success ratio: 0.02564
+0.3 Success ratio: 0.03846
+0.4 Success ratio: 0.03846
+0.5 Success ratio: 0.05128
+Varence Loss: 169.65806
+
+0.1 Success ratio: 0.03846
+0.2 Success ratio: 0.06410
+0.3 Success ratio: 0.08974
+0.4 Success ratio: 0.11538
+0.5 Success ratio: 0.12821
+Varence Loss: 17.17275
+
+0.1 Success ratio: 0.41026
+0.2 Success ratio: 0.61538
+0.3 Success ratio: 0.67949
+0.4 Success ratio: 0.71795
+0.5 Success ratio: 0.76923
+Varence Loss: 1.61932
+
+0.1 Success ratio: 0.34615
+0.2 Success ratio: 0.65385
+0.3 Success ratio: 0.71795
+0.4 Success ratio: 0.75641
+0.5 Success ratio: 0.83333
+Varence Loss: 1.52028
+
+0.1 Success ratio: 0.03846
+0.2 Success ratio: 0.08974
+0.3 Success ratio: 0.19231
+0.4 Success ratio: 0.34615
+0.5 Success ratio: 0.44872
+Varence Loss: 3.48626
+
+0.1 Success ratio: 0.12821
+0.2 Success ratio: 0.38462
+0.3 Success ratio: 0.55128
+0.4 Success ratio: 0.61538
+0.5 Success ratio: 0.66667
+Varence Loss: 2.17199
+
+0.1 Success ratio: 0.08974
+0.2 Success ratio: 0.20513
+0.3 Success ratio: 0.34615
+0.4 Success ratio: 0.46154
+0.5 Success ratio: 0.58974
+Varence Loss: 3.51323
+
+0.1 Success ratio: 0.43590
+0.2 Success ratio: 0.57692
+0.3 Success ratio: 0.61538
+0.4 Success ratio: 0.67949
+0.5 Success ratio: 0.80769
+Varence Loss: 1.19641
+
+0.1 Success ratio: 0.01282
+0.2 Success ratio: 0.10256
+0.3 Success ratio: 0.21795
+0.4 Success ratio: 0.29487
+0.5 Success ratio: 0.53846
+Varence Loss: 3.72568
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 7.60595
+
+0.1 Success ratio: 0.57692
+0.2 Success ratio: 0.64103
+0.3 Success ratio: 0.64103
+0.4 Success ratio: 0.76923
+0.5 Success ratio: 0.80769
+Varence Loss: 1.22226
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 9.38739
+
+0.1 Success ratio: 0.60256
+0.2 Success ratio: 0.66667
+0.3 Success ratio: 0.66667
+0.4 Success ratio: 0.78205
+0.5 Success ratio: 0.83333
+Varence Loss: 1.05676
+
+0.1 Success ratio: 0.60256
+0.2 Success ratio: 0.66667
+0.3 Success ratio: 0.66667
+0.4 Success ratio: 0.78205
+0.5 Success ratio: 0.83333
+Varence Loss: 1.05775
+
+0.1 Success ratio: 0.51282
+0.2 Success ratio: 0.66667
+0.3 Success ratio: 0.74359
+0.4 Success ratio: 0.78205
+0.5 Success ratio: 0.82051
+Varence Loss: 1.07057
+
+0.1 Success ratio: 0.33333
+0.2 Success ratio: 0.66667
+0.3 Success ratio: 0.74359
+0.4 Success ratio: 0.78205
+0.5 Success ratio: 0.89744
+Varence Loss: 1.08374
+
+0.1 Success ratio: 0.33333
+0.2 Success ratio: 0.66667
+0.3 Success ratio: 0.74359
+0.4 Success ratio: 0.78205
+0.5 Success ratio: 0.88462
+Varence Loss: 1.09019
+
+0.1 Success ratio: 0.32051
+0.2 Success ratio: 0.66667
+0.3 Success ratio: 0.74359
+0.4 Success ratio: 0.78205
+0.5 Success ratio: 0.96154
+Varence Loss: 1.10494
+
+0.1 Success ratio: 0.32051
+0.2 Success ratio: 0.66667
+0.3 Success ratio: 0.74359
+0.4 Success ratio: 0.78205
+0.5 Success ratio: 0.96154
+Varence Loss: 1.09891
+
+0.1 Success ratio: 0.32051
+0.2 Success ratio: 0.66667
+0.3 Success ratio: 0.74359
+0.4 Success ratio: 0.78205
+0.5 Success ratio: 0.96154
+Varence Loss: 1.09644
+
+0.1 Success ratio: 0.33333
+0.2 Success ratio: 0.66667
+0.3 Success ratio: 0.74359
+0.4 Success ratio: 0.78205
+0.5 Success ratio: 0.96154
+Varence Loss: 1.09404
+
+0.1 Success ratio: 0.33333
+0.2 Success ratio: 0.66667
+0.3 Success ratio: 0.74359
+0.4 Success ratio: 0.78205
+0.5 Success ratio: 0.88462
+Varence Loss: 1.09094
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 13.77657
+
+0.1 Success ratio: 0.22835
+0.2 Success ratio: 0.44882
+0.3 Success ratio: 0.57743
+0.4 Success ratio: 0.74803
+0.5 Success ratio: 0.87927
+Varence Loss: 2.93031
+
+0.1 Success ratio: 0.26772
+0.2 Success ratio: 0.42520
+0.3 Success ratio: 0.61680
+0.4 Success ratio: 0.78478
+0.5 Success ratio: 0.86089
+Varence Loss: 3.13336
+
+0.1 Success ratio: 0.27559
+0.2 Success ratio: 0.42520
+0.3 Success ratio: 0.63780
+0.4 Success ratio: 0.79790
+0.5 Success ratio: 0.85827
+Varence Loss: 3.19689
+
+0.1 Success ratio: 0.26772
+0.2 Success ratio: 0.42520
+0.3 Success ratio: 0.61680
+0.4 Success ratio: 0.78478
+0.5 Success ratio: 0.86089
+Varence Loss: 3.13581
+
+0.1 Success ratio: 0.26772
+0.2 Success ratio: 0.42520
+0.3 Success ratio: 0.61680
+0.4 Success ratio: 0.77165
+0.5 Success ratio: 0.86352
+Varence Loss: 3.11404
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.46982
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.69291
+0.5 Success ratio: 0.87139
+Varence Loss: 2.85103
+
+0.1 Success ratio: 0.03675
+0.2 Success ratio: 0.08136
+0.3 Success ratio: 0.24934
+0.4 Success ratio: 0.43832
+0.5 Success ratio: 0.61942
+Varence Loss: 6.82400
+
+0.1 Success ratio: 0.15748
+0.2 Success ratio: 0.27559
+0.3 Success ratio: 0.43570
+0.4 Success ratio: 0.61155
+0.5 Success ratio: 0.77428
+Varence Loss: 5.46542
+
+0.1 Success ratio: 0.19160
+0.2 Success ratio: 0.43832
+0.3 Success ratio: 0.62467
+0.4 Success ratio: 0.76378
+0.5 Success ratio: 0.83727
+Varence Loss: 4.05961
+
+0.1 Success ratio: 0.22572
+0.2 Success ratio: 0.47244
+0.3 Success ratio: 0.65617
+0.4 Success ratio: 0.78478
+0.5 Success ratio: 0.86089
+Varence Loss: 3.60247
+
+0.1 Success ratio: 0.20735
+0.2 Success ratio: 0.43045
+0.3 Success ratio: 0.62992
+0.4 Success ratio: 0.74803
+0.5 Success ratio: 0.82415
+Varence Loss: 4.20450
+
+0.1 Success ratio: 0.25459
+0.2 Success ratio: 0.42257
+0.3 Success ratio: 0.61680
+0.4 Success ratio: 0.77690
+0.5 Success ratio: 0.88451
+Varence Loss: 3.05900
+
+0.1 Success ratio: 0.21260
+0.2 Success ratio: 0.36483
+0.3 Success ratio: 0.54068
+0.4 Success ratio: 0.64567
+0.5 Success ratio: 0.78215
+Varence Loss: 2.74142
+
+0.1 Success ratio: 0.17323
+0.2 Success ratio: 0.36220
+0.3 Success ratio: 0.51444
+0.4 Success ratio: 0.64829
+0.5 Success ratio: 0.76378
+Varence Loss: 2.74225
+
+0.1 Success ratio: 0.17323
+0.2 Success ratio: 0.35696
+0.3 Success ratio: 0.51706
+0.4 Success ratio: 0.64829
+0.5 Success ratio: 0.76378
+Varence Loss: 2.74309
+
+0.1 Success ratio: 0.19423
+0.2 Success ratio: 0.36220
+0.3 Success ratio: 0.55643
+0.4 Success ratio: 0.64567
+0.5 Success ratio: 0.78215
+Varence Loss: 2.74227
+
+0.1 Success ratio: 0.21260
+0.2 Success ratio: 0.47507
+0.3 Success ratio: 0.67192
+0.4 Success ratio: 0.83465
+0.5 Success ratio: 0.89239
+Varence Loss: 1.16668
+
+0.1 Success ratio: 0.26772
+0.2 Success ratio: 0.42520
+0.3 Success ratio: 0.69029
+0.4 Success ratio: 0.79790
+0.5 Success ratio: 0.86352
+Varence Loss: 1.16604
+
+0.1 Success ratio: 0.10499
+0.2 Success ratio: 0.25459
+0.3 Success ratio: 0.38058
+0.4 Success ratio: 0.58268
+0.5 Success ratio: 0.76640
+Varence Loss: 1.66848
+
+0.1 Success ratio: 0.20997
+0.2 Success ratio: 0.46194
+0.3 Success ratio: 0.64304
+0.4 Success ratio: 0.75853
+0.5 Success ratio: 0.86614
+Varence Loss: 1.22354
+
+0.1 Success ratio: 0.20997
+0.2 Success ratio: 0.49081
+0.3 Success ratio: 0.65354
+0.4 Success ratio: 0.76378
+0.5 Success ratio: 0.85564
+Varence Loss: 1.25063
+
+0.1 Success ratio: 0.19948
+0.2 Success ratio: 0.46194
+0.3 Success ratio: 0.60892
+0.4 Success ratio: 0.75591
+0.5 Success ratio: 0.83727
+Varence Loss: 1.33922
+
+0.1 Success ratio: 0.20735
+0.2 Success ratio: 0.45932
+0.3 Success ratio: 0.62467
+0.4 Success ratio: 0.75328
+0.5 Success ratio: 0.83202
+Varence Loss: 1.35431
+
+0.1 Success ratio: 0.23622
+0.2 Success ratio: 0.48031
+0.3 Success ratio: 0.63517
+0.4 Success ratio: 0.77953
+0.5 Success ratio: 0.85039
+Varence Loss: 1.29225
+
+0.1 Success ratio: 0.23360
+0.2 Success ratio: 0.48031
+0.3 Success ratio: 0.63517
+0.4 Success ratio: 0.77953
+0.5 Success ratio: 0.85302
+Varence Loss: 1.28284
+
+0.1 Success ratio: 0.21260
+0.2 Success ratio: 0.49344
+0.3 Success ratio: 0.63517
+0.4 Success ratio: 0.78215
+0.5 Success ratio: 0.85564
+Varence Loss: 1.25732
+
+0.1 Success ratio: 0.23360
+0.2 Success ratio: 0.46719
+0.3 Success ratio: 0.63517
+0.4 Success ratio: 0.77953
+0.5 Success ratio: 0.85302
+Varence Loss: 1.28027
+
+0.1 Success ratio: 0.21260
+0.2 Success ratio: 0.48031
+0.3 Success ratio: 0.63517
+0.4 Success ratio: 0.78215
+0.5 Success ratio: 0.85302
+Varence Loss: 1.26493
+
+0.1 Success ratio: 0.20472
+0.2 Success ratio: 0.47769
+0.3 Success ratio: 0.66142
+0.4 Success ratio: 0.77165
+0.5 Success ratio: 0.85827
+Varence Loss: 1.23854
+
+0.1 Success ratio: 0.22835
+0.2 Success ratio: 0.48556
+0.3 Success ratio: 0.63517
+0.4 Success ratio: 0.77953
+0.5 Success ratio: 0.85302
+Varence Loss: 1.27685
+
+0.1 Success ratio: 0.23097
+0.2 Success ratio: 0.46194
+0.3 Success ratio: 0.68766
+0.4 Success ratio: 0.78215
+0.5 Success ratio: 0.87927
+Varence Loss: 1.19900
+
+0.1 Success ratio: 0.27559
+0.2 Success ratio: 0.43307
+0.3 Success ratio: 0.65617
+0.4 Success ratio: 0.79003
+0.5 Success ratio: 0.87139
+Varence Loss: 1.18748
+
+0.1 Success ratio: 0.27297
+0.2 Success ratio: 0.43307
+0.3 Success ratio: 0.64829
+0.4 Success ratio: 0.79528
+0.5 Success ratio: 0.85564
+Varence Loss: 1.18487
+
+0.1 Success ratio: 0.27559
+0.2 Success ratio: 0.41732
+0.3 Success ratio: 0.65092
+0.4 Success ratio: 0.79790
+0.5 Success ratio: 0.85827
+Varence Loss: 1.18199
+
+0.1 Success ratio: 0.27559
+0.2 Success ratio: 0.42520
+0.3 Success ratio: 0.60630
+0.4 Success ratio: 0.78215
+0.5 Success ratio: 0.85827
+Varence Loss: 1.18069
+
+0.1 Success ratio: 0.28609
+0.2 Success ratio: 0.42257
+0.3 Success ratio: 0.61680
+0.4 Success ratio: 0.77690
+0.5 Success ratio: 0.88451
+Varence Loss: 1.16942
+
+0.1 Success ratio: 0.16535
+0.2 Success ratio: 0.25722
+0.3 Success ratio: 0.40682
+0.4 Success ratio: 0.54856
+0.5 Success ratio: 0.70866
+Varence Loss: 1.84634
+
+0.1 Success ratio: 0.29396
+0.2 Success ratio: 0.42257
+0.3 Success ratio: 0.61417
+0.4 Success ratio: 0.78215
+0.5 Success ratio: 0.85827
+Varence Loss: 1.17793
+
+0.1 Success ratio: 0.20472
+0.2 Success ratio: 0.46719
+0.3 Success ratio: 0.55118
+0.4 Success ratio: 0.70079
+0.5 Success ratio: 0.87927
+Varence Loss: 2.89908
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.85039
+Varence Loss: 2.79959
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.40420
+0.3 Success ratio: 0.55906
+0.4 Success ratio: 0.67717
+0.5 Success ratio: 0.83990
+Varence Loss: 2.78798
+
+0.1 Success ratio: 0.19423
+0.2 Success ratio: 0.39370
+0.3 Success ratio: 0.55643
+0.4 Success ratio: 0.67192
+0.5 Success ratio: 0.82152
+Varence Loss: 2.76862
+
+0.1 Success ratio: 0.23360
+0.2 Success ratio: 0.41470
+0.3 Success ratio: 0.61417
+0.4 Success ratio: 0.73228
+0.5 Success ratio: 0.78478
+Varence Loss: 4.49108
+
+0.1 Success ratio: 0.24672
+0.2 Success ratio: 0.40157
+0.3 Success ratio: 0.59580
+0.4 Success ratio: 0.71916
+0.5 Success ratio: 0.80840
+Varence Loss: 3.87544
+
+0.1 Success ratio: 0.06562
+0.2 Success ratio: 0.10236
+0.3 Success ratio: 0.14698
+0.4 Success ratio: 0.19160
+0.5 Success ratio: 0.26247
+Varence Loss: 12.84038
+
+0.1 Success ratio: 0.27559
+0.2 Success ratio: 0.42520
+0.3 Success ratio: 0.60367
+0.4 Success ratio: 0.78215
+0.5 Success ratio: 0.85827
+Varence Loss: 3.17347
+
+0.1 Success ratio: 0.25984
+0.2 Success ratio: 0.43307
+0.3 Success ratio: 0.66929
+0.4 Success ratio: 0.79003
+0.5 Success ratio: 0.87139
+Varence Loss: 3.26236
+
+0.1 Success ratio: 0.27297
+0.2 Success ratio: 0.43307
+0.3 Success ratio: 0.64829
+0.4 Success ratio: 0.79790
+0.5 Success ratio: 0.85827
+Varence Loss: 3.22092
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: nan
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: nan
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: nan
+
+0.1 Success ratio: 0.20735
+0.2 Success ratio: 0.34383
+0.3 Success ratio: 0.49869
+0.4 Success ratio: 0.61680
+0.5 Success ratio: 0.73228
+Varence Loss: 2.81394
+
+0.1 Success ratio: 0.00787
+0.2 Success ratio: 0.02625
+0.3 Success ratio: 0.09974
+0.4 Success ratio: 0.23622
+0.5 Success ratio: 0.43045
+Varence Loss: 8.46767
+
+0.1 Success ratio: 0.05774
+0.2 Success ratio: 0.16798
+0.3 Success ratio: 0.31759
+0.4 Success ratio: 0.49606
+0.5 Success ratio: 0.66404
+Varence Loss: 6.30602
+
+0.1 Success ratio: 0.21522
+0.2 Success ratio: 0.43832
+0.3 Success ratio: 0.61680
+0.4 Success ratio: 0.76115
+0.5 Success ratio: 0.83202
+Varence Loss: 4.13853
+
+0.1 Success ratio: 0.20210
+0.2 Success ratio: 0.45932
+0.3 Success ratio: 0.62730
+0.4 Success ratio: 0.75328
+0.5 Success ratio: 0.83465
+Varence Loss: 3.89044
+
+0.1 Success ratio: 0.01575
+0.2 Success ratio: 0.01575
+0.3 Success ratio: 0.04462
+0.4 Success ratio: 0.15748
+0.5 Success ratio: 0.33071
+Varence Loss: 8.86957
+
+0.1 Success ratio: 0.14436
+0.2 Success ratio: 0.25722
+0.3 Success ratio: 0.40420
+0.4 Success ratio: 0.60105
+0.5 Success ratio: 0.76640
+Varence Loss: 5.75019
+
+0.1 Success ratio: 0.19160
+0.2 Success ratio: 0.37270
+0.3 Success ratio: 0.55381
+0.4 Success ratio: 0.64304
+0.5 Success ratio: 0.78740
+Varence Loss: 2.72144
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: nan
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: nan
+
+0.1 Success ratio: 0.13386
+0.2 Success ratio: 0.24672
+0.3 Success ratio: 0.37533
+0.4 Success ratio: 0.50656
+0.5 Success ratio: 0.69291
+Varence Loss: 3.30283
+
+0.1 Success ratio: 0.09711
+0.2 Success ratio: 0.15748
+0.3 Success ratio: 0.19423
+0.4 Success ratio: 0.26509
+0.5 Success ratio: 0.33596
+Varence Loss: 7.69043
+
+0.1 Success ratio: 0.06824
+0.2 Success ratio: 0.18635
+0.3 Success ratio: 0.31496
+0.4 Success ratio: 0.45407
+0.5 Success ratio: 0.55381
+Varence Loss: 4.08563
+
+0.1 Success ratio: 0.24934
+0.2 Success ratio: 0.42257
+0.3 Success ratio: 0.60892
+0.4 Success ratio: 0.73491
+0.5 Success ratio: 0.83727
+Varence Loss: 3.50938
+
+0.1 Success ratio: 0.25197
+0.2 Success ratio: 0.40682
+0.3 Success ratio: 0.59055
+0.4 Success ratio: 0.75066
+0.5 Success ratio: 0.85564
+Varence Loss: 3.33166
+
+0.1 Success ratio: 0.22572
+0.2 Success ratio: 0.46194
+0.3 Success ratio: 0.66142
+0.4 Success ratio: 0.77428
+0.5 Success ratio: 0.87139
+Varence Loss: 3.46879
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: nan
+
+0.1 Success ratio: 0.00262
+0.2 Success ratio: 0.00262
+0.3 Success ratio: 0.00525
+0.4 Success ratio: 0.00525
+0.5 Success ratio: 0.00787
+Varence Loss: 134.78620
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: nan
+
+0.1 Success ratio: 0.01575
+0.2 Success ratio: 0.02362
+0.3 Success ratio: 0.03412
+0.4 Success ratio: 0.05249
+0.5 Success ratio: 0.07612
+Varence Loss: 7.07601
+
+0.1 Success ratio: 0.02100
+0.2 Success ratio: 0.04987
+0.3 Success ratio: 0.07087
+0.4 Success ratio: 0.09711
+0.5 Success ratio: 0.13123
+Varence Loss: 6.88438
+
+0.1 Success ratio: 0.02100
+0.2 Success ratio: 0.04724
+0.3 Success ratio: 0.07087
+0.4 Success ratio: 0.10236
+0.5 Success ratio: 0.13123
+Varence Loss: 5.62982
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 55.84212
+
+0.1 Success ratio: 0.01050
+0.2 Success ratio: 0.01575
+0.3 Success ratio: 0.02362
+0.4 Success ratio: 0.02887
+0.5 Success ratio: 0.04199
+Varence Loss: 4.52900
+
+0.1 Success ratio: 0.16010
+0.2 Success ratio: 0.28609
+0.3 Success ratio: 0.40420
+0.4 Success ratio: 0.50919
+0.5 Success ratio: 0.53281
+Varence Loss: 3.02009
+
+0.1 Success ratio: 0.00525
+0.2 Success ratio: 0.01312
+0.3 Success ratio: 0.01837
+0.4 Success ratio: 0.02362
+0.5 Success ratio: 0.02887
+Varence Loss: 8.46056
+
+0.1 Success ratio: 0.01575
+0.2 Success ratio: 0.02625
+0.3 Success ratio: 0.03937
+0.4 Success ratio: 0.04987
+0.5 Success ratio: 0.05774
+Varence Loss: 6.21416
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 106.21209
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 56.27410
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00262
+0.3 Success ratio: 0.00262
+0.4 Success ratio: 0.01050
+0.5 Success ratio: 0.01312
+Varence Loss: 9.98454
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 53.81453
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 109.27730
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 37.16690
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00262
+0.3 Success ratio: 0.00262
+0.4 Success ratio: 0.00262
+0.5 Success ratio: 0.00262
+Varence Loss: 21.49916
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 32.73092
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 23.38805
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00262
+0.3 Success ratio: 0.00262
+0.4 Success ratio: 0.00525
+0.5 Success ratio: 0.01050
+Varence Loss: 26.07898
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 72.61834
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 127.30018
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 72.17288
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00262
+0.5 Success ratio: 0.00262
+Varence Loss: 9.27753
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 14.59247
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 18.80118
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 70.75239
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 14.23114
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00262
+0.4 Success ratio: 0.00525
+0.5 Success ratio: 0.00525
+Varence Loss: 30.91083
+
+0.1 Success ratio: 0.00787
+0.2 Success ratio: 0.02100
+0.3 Success ratio: 0.02362
+0.4 Success ratio: 0.03675
+0.5 Success ratio: 0.03937
+Varence Loss: 4.81704
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00262
+Varence Loss: 25.62950
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00262
+0.4 Success ratio: 0.00262
+0.5 Success ratio: 0.00262
+Varence Loss: 16.80660
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 39.22037
+
+0.1 Success ratio: 0.03150
+0.2 Success ratio: 0.07874
+0.3 Success ratio: 0.09974
+0.4 Success ratio: 0.17585
+0.5 Success ratio: 0.21785
+Varence Loss: 4.34313
+
+0.1 Success ratio: 0.01837
+0.2 Success ratio: 0.02100
+0.3 Success ratio: 0.03150
+0.4 Success ratio: 0.04724
+0.5 Success ratio: 0.05512
+Varence Loss: 9.07338
+
+0.1 Success ratio: 0.02362
+0.2 Success ratio: 0.06299
+0.3 Success ratio: 0.07874
+0.4 Success ratio: 0.12861
+0.5 Success ratio: 0.18110
+Varence Loss: 5.59065
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 23.41905
+
+0.1 Success ratio: 0.00262
+0.2 Success ratio: 0.00262
+0.3 Success ratio: 0.00262
+0.4 Success ratio: 0.00262
+0.5 Success ratio: 0.00525
+Varence Loss: 24.29464
+
+0.1 Success ratio: 0.00262
+0.2 Success ratio: 0.01050
+0.3 Success ratio: 0.01575
+0.4 Success ratio: 0.02625
+0.5 Success ratio: 0.02887
+Varence Loss: 9.38449
+
+0.1 Success ratio: 0.00787
+0.2 Success ratio: 0.01575
+0.3 Success ratio: 0.02887
+0.4 Success ratio: 0.03412
+0.5 Success ratio: 0.03412
+Varence Loss: 5.55300
+
+0.1 Success ratio: 0.01312
+0.2 Success ratio: 0.02362
+0.3 Success ratio: 0.03150
+0.4 Success ratio: 0.04724
+0.5 Success ratio: 0.05512
+Varence Loss: 8.63374
+
+0.1 Success ratio: 0.14173
+0.2 Success ratio: 0.31759
+0.3 Success ratio: 0.44357
+0.4 Success ratio: 0.65092
+0.5 Success ratio: 0.71391
+Varence Loss: 1.32130
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.44619
+0.3 Success ratio: 0.60892
+0.4 Success ratio: 0.75591
+0.5 Success ratio: 0.83990
+Varence Loss: 1.32877
+
+0.1 Success ratio: 0.27559
+0.2 Success ratio: 0.41732
+0.3 Success ratio: 0.65092
+0.4 Success ratio: 0.79790
+0.5 Success ratio: 0.85827
+Varence Loss: 1.18277
+
+0.1 Success ratio: 0.22835
+0.2 Success ratio: 0.46194
+0.3 Success ratio: 0.65354
+0.4 Success ratio: 0.77428
+0.5 Success ratio: 0.86352
+Varence Loss: 1.21570
+
+0.1 Success ratio: 0.14698
+0.2 Success ratio: 0.24934
+0.3 Success ratio: 0.38320
+0.4 Success ratio: 0.50656
+0.5 Success ratio: 0.67192
+Varence Loss: 1.55375
+
+0.1 Success ratio: 0.19160
+0.2 Success ratio: 0.38058
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.69291
+0.5 Success ratio: 0.82415
+Varence Loss: 1.32751
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 46.93232
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 13.16935
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 18.81910
+
+0.1 Success ratio: 0.01575
+0.2 Success ratio: 0.03150
+0.3 Success ratio: 0.04199
+0.4 Success ratio: 0.05512
+0.5 Success ratio: 0.09186
+Varence Loss: 5.87166
+
+0.1 Success ratio: 0.17585
+0.2 Success ratio: 0.37270
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.64304
+0.5 Success ratio: 0.79003
+Varence Loss: 1.23469
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 310.81494
+
+0.1 Success ratio: 0.24934
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.59318
+0.4 Success ratio: 0.76378
+0.5 Success ratio: 0.88976
+Varence Loss: 1.16712
+
+0.1 Success ratio: 0.23097
+0.2 Success ratio: 0.44094
+0.3 Success ratio: 0.67454
+0.4 Success ratio: 0.78478
+0.5 Success ratio: 0.88189
+Varence Loss: 1.19383
+
+0.1 Success ratio: 0.24672
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.59843
+0.4 Success ratio: 0.76378
+0.5 Success ratio: 0.88976
+Varence Loss: 1.16701
+
+0.1 Success ratio: 0.25197
+0.2 Success ratio: 0.42257
+0.3 Success ratio: 0.60892
+0.4 Success ratio: 0.77428
+0.5 Success ratio: 0.86614
+Varence Loss: 1.17210
+
+0.1 Success ratio: 0.20735
+0.2 Success ratio: 0.45407
+0.3 Success ratio: 0.54856
+0.4 Success ratio: 0.70079
+0.5 Success ratio: 0.88189
+Varence Loss: 1.16870
+
+0.1 Success ratio: 0.26772
+0.2 Success ratio: 0.42520
+0.3 Success ratio: 0.61680
+0.4 Success ratio: 0.78478
+0.5 Success ratio: 0.86089
+Varence Loss: 1.17573
+
+0.1 Success ratio: 0.27559
+0.2 Success ratio: 0.42520
+0.3 Success ratio: 0.63780
+0.4 Success ratio: 0.79790
+0.5 Success ratio: 0.85827
+Varence Loss: 1.18147
+
+0.1 Success ratio: 0.20735
+0.2 Success ratio: 0.46457
+0.3 Success ratio: 0.54856
+0.4 Success ratio: 0.70079
+0.5 Success ratio: 0.88189
+Varence Loss: 1.16886
+
+0.1 Success ratio: 0.22835
+0.2 Success ratio: 0.44882
+0.3 Success ratio: 0.57743
+0.4 Success ratio: 0.74803
+0.5 Success ratio: 0.87927
+Varence Loss: 1.16802
+
+0.1 Success ratio: 0.22835
+0.2 Success ratio: 0.44619
+0.3 Success ratio: 0.57743
+0.4 Success ratio: 0.74803
+0.5 Success ratio: 0.89239
+Varence Loss: 1.16769
+
+0.1 Success ratio: 0.22835
+0.2 Success ratio: 0.44882
+0.3 Success ratio: 0.58005
+0.4 Success ratio: 0.73491
+0.5 Success ratio: 0.88189
+Varence Loss: 1.16820
+
+0.1 Success ratio: 0.22835
+0.2 Success ratio: 0.44619
+0.3 Success ratio: 0.58005
+0.4 Success ratio: 0.74803
+0.5 Success ratio: 0.89239
+Varence Loss: 1.16755
+
+0.1 Success ratio: 0.22835
+0.2 Success ratio: 0.44882
+0.3 Success ratio: 0.57743
+0.4 Success ratio: 0.74803
+0.5 Success ratio: 0.87927
+Varence Loss: 1.16798
+
+0.1 Success ratio: 0.20997
+0.2 Success ratio: 0.45144
+0.3 Success ratio: 0.55118
+0.4 Success ratio: 0.70341
+0.5 Success ratio: 0.88189
+Varence Loss: 1.16841
+
+0.1 Success ratio: 0.20735
+0.2 Success ratio: 0.46457
+0.3 Success ratio: 0.54856
+0.4 Success ratio: 0.70079
+0.5 Success ratio: 0.88451
+Varence Loss: 1.16898
+
+0.1 Success ratio: 0.20735
+0.2 Success ratio: 0.47507
+0.3 Success ratio: 0.56168
+0.4 Success ratio: 0.70341
+0.5 Success ratio: 0.87139
+Varence Loss: 1.16967
+
+0.1 Success ratio: 0.20735
+0.2 Success ratio: 0.46457
+0.3 Success ratio: 0.54856
+0.4 Success ratio: 0.70079
+0.5 Success ratio: 0.88189
+Varence Loss: 1.16886
+
+0.1 Success ratio: 0.20735
+0.2 Success ratio: 0.47244
+0.3 Success ratio: 0.55906
+0.4 Success ratio: 0.70341
+0.5 Success ratio: 0.87139
+Varence Loss: 1.16943
+
+0.1 Success ratio: 0.20735
+0.2 Success ratio: 0.47769
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.70341
+0.5 Success ratio: 0.87139
+Varence Loss: 1.17057
+
+0.1 Success ratio: 0.20735
+0.2 Success ratio: 0.48031
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.69291
+0.5 Success ratio: 0.87139
+Varence Loss: 1.17233
+
+0.1 Success ratio: 0.20735
+0.2 Success ratio: 0.47769
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.70341
+0.5 Success ratio: 0.87139
+Varence Loss: 1.17057
+
+0.1 Success ratio: 0.20735
+0.2 Success ratio: 0.48031
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.69291
+0.5 Success ratio: 0.87139
+Varence Loss: 1.17211
+
+0.1 Success ratio: 0.20735
+0.2 Success ratio: 0.47769
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.70341
+0.5 Success ratio: 0.87139
+Varence Loss: 1.17057
+
+0.1 Success ratio: 0.20735
+0.2 Success ratio: 0.47769
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.69291
+0.5 Success ratio: 0.87139
+Varence Loss: 1.17167
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.45407
+0.3 Success ratio: 0.56168
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.87139
+Varence Loss: 1.17480
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.45407
+0.3 Success ratio: 0.56168
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.87139
+Varence Loss: 1.17595
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.45407
+0.3 Success ratio: 0.56168
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.87139
+Varence Loss: 1.17480
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.45407
+0.3 Success ratio: 0.56168
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.87139
+Varence Loss: 1.17434
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.45407
+0.3 Success ratio: 0.56168
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.87139
+Varence Loss: 1.17457
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.45407
+0.3 Success ratio: 0.56168
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.87139
+Varence Loss: 1.17526
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.45407
+0.3 Success ratio: 0.56168
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.87139
+Varence Loss: 1.17549
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.45407
+0.3 Success ratio: 0.56168
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.87139
+Varence Loss: 1.17572
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.45407
+0.3 Success ratio: 0.56168
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.87139
+Varence Loss: 1.17619
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.45407
+0.3 Success ratio: 0.56168
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.87139
+Varence Loss: 1.17642
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.45407
+0.3 Success ratio: 0.56168
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.87139
+Varence Loss: 1.17642
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.45407
+0.3 Success ratio: 0.56168
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.87139
+Varence Loss: 1.17642
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.45407
+0.3 Success ratio: 0.56168
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.87139
+Varence Loss: 1.17642
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.45407
+0.3 Success ratio: 0.56168
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.87139
+Varence Loss: 1.17642
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.45407
+0.3 Success ratio: 0.56168
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.87139
+Varence Loss: 1.17642
+
+0.1 Success ratio: 0.12821
+0.2 Success ratio: 0.30769
+0.3 Success ratio: 0.46154
+0.4 Success ratio: 0.74359
+0.5 Success ratio: 0.83333
+Varence Loss: 1.19962
+
+0.1 Success ratio: 0.30769
+0.2 Success ratio: 0.61538
+0.3 Success ratio: 0.69231
+0.4 Success ratio: 0.76923
+0.5 Success ratio: 0.85897
+Varence Loss: 0.75351
+
+0.1 Success ratio: 0.37179
+0.2 Success ratio: 0.55128
+0.3 Success ratio: 0.62821
+0.4 Success ratio: 0.65385
+0.5 Success ratio: 0.75641
+Varence Loss: 0.91018
+
+0.1 Success ratio: 0.03846
+0.2 Success ratio: 0.08974
+0.3 Success ratio: 0.12821
+0.4 Success ratio: 0.21795
+0.5 Success ratio: 0.35897
+Varence Loss: 2.13855
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.15385
+0.4 Success ratio: 0.24359
+0.5 Success ratio: 0.44872
+Varence Loss: 1.71571
+
+0.1 Success ratio: 0.11538
+0.2 Success ratio: 0.42308
+0.3 Success ratio: 0.75641
+0.4 Success ratio: 0.91026
+0.5 Success ratio: 0.94872
+Varence Loss: 0.82376
+
+0.1 Success ratio: 0.16667
+0.2 Success ratio: 0.24359
+0.3 Success ratio: 0.35897
+0.4 Success ratio: 0.85897
+0.5 Success ratio: 0.91026
+Varence Loss: 1.20245
+
+0.1 Success ratio: 0.08974
+0.2 Success ratio: 0.29487
+0.3 Success ratio: 0.91026
+0.4 Success ratio: 0.91026
+0.5 Success ratio: 0.93590
+Varence Loss: 0.89488
+
+0.1 Success ratio: 0.08974
+0.2 Success ratio: 0.25641
+0.3 Success ratio: 0.56410
+0.4 Success ratio: 0.91026
+0.5 Success ratio: 0.93590
+Varence Loss: 1.03419
+
+0.1 Success ratio: 0.08974
+0.2 Success ratio: 0.39744
+0.3 Success ratio: 0.91026
+0.4 Success ratio: 0.91026
+0.5 Success ratio: 0.93590
+Varence Loss: 0.87985
+
+0.1 Success ratio: 0.11538
+0.2 Success ratio: 0.42308
+0.3 Success ratio: 0.75641
+0.4 Success ratio: 0.91026
+0.5 Success ratio: 0.94872
+Varence Loss: 0.81976
+
+0.1 Success ratio: 0.24359
+0.2 Success ratio: 0.24359
+0.3 Success ratio: 0.43590
+0.4 Success ratio: 0.91026
+0.5 Success ratio: 0.91026
+Varence Loss: 1.16594
+
+0.1 Success ratio: 0.08974
+0.2 Success ratio: 0.26923
+0.3 Success ratio: 0.56410
+0.4 Success ratio: 0.91026
+0.5 Success ratio: 0.93590
+Varence Loss: 1.03028
+
+0.1 Success ratio: 0.08974
+0.2 Success ratio: 0.25641
+0.3 Success ratio: 0.56410
+0.4 Success ratio: 0.91026
+0.5 Success ratio: 0.93590
+Varence Loss: 1.04330
+
+0.1 Success ratio: 0.08974
+0.2 Success ratio: 0.26923
+0.3 Success ratio: 0.57692
+0.4 Success ratio: 0.91026
+0.5 Success ratio: 0.93590
+Varence Loss: 1.01336
+
+0.1 Success ratio: 0.08974
+0.2 Success ratio: 0.34615
+0.3 Success ratio: 0.75641
+0.4 Success ratio: 0.91026
+0.5 Success ratio: 0.93590
+Varence Loss: 1.00034
+
+0.1 Success ratio: 0.08974
+0.2 Success ratio: 0.28205
+0.3 Success ratio: 0.91026
+0.4 Success ratio: 0.91026
+0.5 Success ratio: 0.93590
+Varence Loss: 0.94796
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 69.49536
+
+0.1 Success ratio: 0.08974
+0.2 Success ratio: 0.35897
+0.3 Success ratio: 0.85897
+0.4 Success ratio: 0.91026
+0.5 Success ratio: 0.93590
+Varence Loss: 0.96198
+
+0.1 Success ratio: 0.08974
+0.2 Success ratio: 0.34615
+0.3 Success ratio: 0.75641
+0.4 Success ratio: 0.91026
+0.5 Success ratio: 0.93590
+Varence Loss: 0.99903
+
+0.1 Success ratio: 0.08974
+0.2 Success ratio: 0.35897
+0.3 Success ratio: 0.85897
+0.4 Success ratio: 0.91026
+0.5 Success ratio: 0.93590
+Varence Loss: 0.96499
+
+0.1 Success ratio: 0.08974
+0.2 Success ratio: 0.35897
+0.3 Success ratio: 0.85897
+0.4 Success ratio: 0.91026
+0.5 Success ratio: 0.93590
+Varence Loss: 0.96499
+
+0.1 Success ratio: 0.08974
+0.2 Success ratio: 0.35897
+0.3 Success ratio: 0.76923
+0.4 Success ratio: 0.91026
+0.5 Success ratio: 0.93590
+Varence Loss: 0.98903
+
+0.1 Success ratio: 0.23360
+0.2 Success ratio: 0.46719
+0.3 Success ratio: 0.63517
+0.4 Success ratio: 0.77953
+0.5 Success ratio: 0.85302
+Varence Loss: 1.28198
+
+0.1 Success ratio: 0.24672
+0.2 Success ratio: 0.46194
+0.3 Success ratio: 0.66929
+0.4 Success ratio: 0.77428
+0.5 Success ratio: 0.86877
+Varence Loss: 1.20934
+
+0.1 Success ratio: 0.19423
+0.2 Success ratio: 0.36220
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.64567
+0.5 Success ratio: 0.78215
+Varence Loss: 1.22619
+
+0.1 Success ratio: 0.19423
+0.2 Success ratio: 0.36220
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.64567
+0.5 Success ratio: 0.78215
+Varence Loss: 1.22674
+
+0.1 Success ratio: 0.17323
+0.2 Success ratio: 0.33333
+0.3 Success ratio: 0.45669
+0.4 Success ratio: 0.65092
+0.5 Success ratio: 0.71391
+Varence Loss: 1.30630
+
+0.1 Success ratio: 0.19160
+0.2 Success ratio: 0.36220
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.64567
+0.5 Success ratio: 0.78215
+Varence Loss: 1.22564
+
+0.1 Success ratio: 0.21260
+0.2 Success ratio: 0.36220
+0.3 Success ratio: 0.55643
+0.4 Success ratio: 0.64567
+0.5 Success ratio: 0.78215
+Varence Loss: 1.23935
+
+0.1 Success ratio: 0.23622
+0.2 Success ratio: 0.43570
+0.3 Success ratio: 0.66929
+0.4 Success ratio: 0.79003
+0.5 Success ratio: 0.87139
+Varence Loss: 1.18881
+
+0.1 Success ratio: 0.18635
+0.2 Success ratio: 0.34121
+0.3 Success ratio: 0.50131
+0.4 Success ratio: 0.65092
+0.5 Success ratio: 0.74016
+Varence Loss: 1.28173
+
+0.1 Success ratio: 0.19423
+0.2 Success ratio: 0.39370
+0.3 Success ratio: 0.55643
+0.4 Success ratio: 0.67192
+0.5 Success ratio: 0.82152
+Varence Loss: 1.20029
+
+0.1 Success ratio: 0.18635
+0.2 Success ratio: 0.34121
+0.3 Success ratio: 0.48031
+0.4 Success ratio: 0.65092
+0.5 Success ratio: 0.74016
+Varence Loss: 1.28295
+
+0.1 Success ratio: 0.19685
+0.2 Success ratio: 0.34121
+0.3 Success ratio: 0.50394
+0.4 Success ratio: 0.63780
+0.5 Success ratio: 0.74278
+Varence Loss: 1.26831
+
+0.1 Success ratio: 0.17848
+0.2 Success ratio: 0.35958
+0.3 Success ratio: 0.51706
+0.4 Success ratio: 0.63517
+0.5 Success ratio: 0.76378
+Varence Loss: 1.25910
+
+0.1 Success ratio: 0.19423
+0.2 Success ratio: 0.36220
+0.3 Success ratio: 0.55643
+0.4 Success ratio: 0.64567
+0.5 Success ratio: 0.78215
+Varence Loss: 1.23825
+
+0.1 Success ratio: 0.18110
+0.2 Success ratio: 0.34121
+0.3 Success ratio: 0.49869
+0.4 Success ratio: 0.65092
+0.5 Success ratio: 0.74016
+Varence Loss: 1.27807
+
+0.1 Success ratio: 0.19685
+0.2 Success ratio: 0.34121
+0.3 Success ratio: 0.50394
+0.4 Success ratio: 0.63780
+0.5 Success ratio: 0.74278
+Varence Loss: 1.26831
+
+0.1 Success ratio: 0.17585
+0.2 Success ratio: 0.37795
+0.3 Success ratio: 0.56168
+0.4 Success ratio: 0.64304
+0.5 Success ratio: 0.79265
+Varence Loss: 1.21645
+
+0.1 Success ratio: 0.17585
+0.2 Success ratio: 0.37533
+0.3 Success ratio: 0.56168
+0.4 Success ratio: 0.64304
+0.5 Success ratio: 0.79003
+Varence Loss: 1.21488
+
+0.1 Success ratio: 0.19160
+0.2 Success ratio: 0.37795
+0.3 Success ratio: 0.56168
+0.4 Success ratio: 0.64304
+0.5 Success ratio: 0.79265
+Varence Loss: 1.21698
+
+0.1 Success ratio: 0.18898
+0.2 Success ratio: 0.34121
+0.3 Success ratio: 0.51706
+0.4 Success ratio: 0.63517
+0.5 Success ratio: 0.74278
+Varence Loss: 1.26349
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.40945
+0.3 Success ratio: 0.55381
+0.4 Success ratio: 0.68241
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18771
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.40420
+0.3 Success ratio: 0.55906
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.83990
+Varence Loss: 1.19051
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.40420
+0.3 Success ratio: 0.55381
+0.4 Success ratio: 0.67192
+0.5 Success ratio: 0.83465
+Varence Loss: 1.19415
+
+0.1 Success ratio: 0.19423
+0.2 Success ratio: 0.39108
+0.3 Success ratio: 0.55643
+0.4 Success ratio: 0.67192
+0.5 Success ratio: 0.83465
+Varence Loss: 1.19880
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.70079
+0.5 Success ratio: 0.85827
+Varence Loss: 1.18249
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18526
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.40945
+0.3 Success ratio: 0.55643
+0.4 Success ratio: 0.68241
+0.5 Success ratio: 0.85302
+Varence Loss: 1.18876
+
+0.1 Success ratio: 0.19948
+0.2 Success ratio: 0.36220
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.64567
+0.5 Success ratio: 0.78215
+Varence Loss: 1.22948
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.40420
+0.3 Success ratio: 0.55906
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.83990
+Varence Loss: 1.19087
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.40945
+0.3 Success ratio: 0.55906
+0.4 Success ratio: 0.68241
+0.5 Success ratio: 0.85302
+Varence Loss: 1.18905
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.40420
+0.3 Success ratio: 0.55381
+0.4 Success ratio: 0.67192
+0.5 Success ratio: 0.83465
+Varence Loss: 1.19378
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.40420
+0.3 Success ratio: 0.55643
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.83465
+Varence Loss: 1.19160
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.40157
+0.3 Success ratio: 0.55906
+0.4 Success ratio: 0.68241
+0.5 Success ratio: 0.85302
+Varence Loss: 1.18941
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18394
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.40945
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18582
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.40945
+0.3 Success ratio: 0.55643
+0.4 Success ratio: 0.68241
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18803
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18519
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.40945
+0.3 Success ratio: 0.55643
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18707
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18519
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18394
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18550
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.68504
+0.5 Success ratio: 0.85827
+Varence Loss: 1.18363
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.70079
+0.5 Success ratio: 0.85827
+Varence Loss: 1.18269
+
+0.1 Success ratio: 0.20997
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56693
+0.4 Success ratio: 0.70079
+0.5 Success ratio: 0.85827
+Varence Loss: 1.18053
+
+0.1 Success ratio: 0.21522
+0.2 Success ratio: 0.42520
+0.3 Success ratio: 0.56693
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.85827
+Varence Loss: 1.17902
+
+0.1 Success ratio: 0.20997
+0.2 Success ratio: 0.42520
+0.3 Success ratio: 0.56693
+0.4 Success ratio: 0.70079
+0.5 Success ratio: 0.85827
+Varence Loss: 1.17963
+
+0.1 Success ratio: 0.21522
+0.2 Success ratio: 0.42520
+0.3 Success ratio: 0.56693
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.85827
+Varence Loss: 1.17902
+
+0.1 Success ratio: 0.21522
+0.2 Success ratio: 0.42520
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.85827
+Varence Loss: 1.17872
+
+0.1 Success ratio: 0.21522
+0.2 Success ratio: 0.42520
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.85827
+Varence Loss: 1.17872
+
+0.1 Success ratio: 0.21522
+0.2 Success ratio: 0.42520
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.85827
+Varence Loss: 1.17849
+
+0.1 Success ratio: 0.21522
+0.2 Success ratio: 0.42520
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.69554
+0.5 Success ratio: 0.85827
+Varence Loss: 1.17849
+
+0.1 Success ratio: 0.02362
+0.2 Success ratio: 0.04987
+0.3 Success ratio: 0.08136
+0.4 Success ratio: 0.13123
+0.5 Success ratio: 0.15486
+Varence Loss: 5.31619
+
+0.1 Success ratio: 0.01312
+0.2 Success ratio: 0.04987
+0.3 Success ratio: 0.12336
+0.4 Success ratio: 0.17848
+0.5 Success ratio: 0.22310
+Varence Loss: 4.20541
+
+0.1 Success ratio: 0.18373
+0.2 Success ratio: 0.40157
+0.3 Success ratio: 0.48294
+0.4 Success ratio: 0.58793
+0.5 Success ratio: 0.75591
+Varence Loss: 1.53879
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 11.99740
+
+0.1 Success ratio: 0.01050
+0.2 Success ratio: 0.01575
+0.3 Success ratio: 0.01837
+0.4 Success ratio: 0.03150
+0.5 Success ratio: 0.03412
+Varence Loss: 10.77302
+
+0.1 Success ratio: 0.03150
+0.2 Success ratio: 0.08399
+0.3 Success ratio: 0.17323
+0.4 Success ratio: 0.21260
+0.5 Success ratio: 0.30184
+Varence Loss: 4.90717
+
+0.1 Success ratio: 0.20210
+0.2 Success ratio: 0.36483
+0.3 Success ratio: 0.52493
+0.4 Success ratio: 0.63255
+0.5 Success ratio: 0.72441
+Varence Loss: 1.49755
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 12.81420
+
+0.1 Success ratio: 0.12598
+0.2 Success ratio: 0.28084
+0.3 Success ratio: 0.38058
+0.4 Success ratio: 0.48819
+0.5 Success ratio: 0.58005
+Varence Loss: 2.64069
+
+0.1 Success ratio: 0.01050
+0.2 Success ratio: 0.01312
+0.3 Success ratio: 0.01312
+0.4 Success ratio: 0.01575
+0.5 Success ratio: 0.02362
+Varence Loss: 31.42840
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 14.88991
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 26.25694
+
+0.1 Success ratio: 0.00525
+0.2 Success ratio: 0.00525
+0.3 Success ratio: 0.00525
+0.4 Success ratio: 0.00525
+0.5 Success ratio: 0.00525
+Varence Loss: 10.93465
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 15.00079
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00262
+0.3 Success ratio: 0.00787
+0.4 Success ratio: 0.00787
+0.5 Success ratio: 0.00787
+Varence Loss: 11.82326
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00262
+0.5 Success ratio: 0.00525
+Varence Loss: 17.27320
+
+0.1 Success ratio: 0.00525
+0.2 Success ratio: 0.00525
+0.3 Success ratio: 0.01575
+0.4 Success ratio: 0.02887
+0.5 Success ratio: 0.04199
+Varence Loss: 8.54841
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 37.40512
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.04724
+0.3 Success ratio: 0.10236
+0.4 Success ratio: 0.28084
+0.5 Success ratio: 0.50656
+Varence Loss: 2.25268
+
+0.1 Success ratio: 0.00262
+0.2 Success ratio: 0.00262
+0.3 Success ratio: 0.00525
+0.4 Success ratio: 0.00525
+0.5 Success ratio: 0.00525
+Varence Loss: 6.51756
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 22.08513
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 63.48210
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00262
+0.4 Success ratio: 0.00525
+0.5 Success ratio: 0.00787
+Varence Loss: 24.81010
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00262
+0.3 Success ratio: 0.00262
+0.4 Success ratio: 0.00262
+0.5 Success ratio: 0.00262
+Varence Loss: 13.04410
+
+0.1 Success ratio: 0.02100
+0.2 Success ratio: 0.04199
+0.3 Success ratio: 0.05774
+0.4 Success ratio: 0.08924
+0.5 Success ratio: 0.12336
+Varence Loss: 5.52144
+
+0.1 Success ratio: 0.00787
+0.2 Success ratio: 0.01837
+0.3 Success ratio: 0.02887
+0.4 Success ratio: 0.04987
+0.5 Success ratio: 0.06299
+Varence Loss: 8.33638
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00262
+0.4 Success ratio: 0.00787
+0.5 Success ratio: 0.01312
+Varence Loss: 8.56816
+
+0.1 Success ratio: 0.00787
+0.2 Success ratio: 0.01837
+0.3 Success ratio: 0.01837
+0.4 Success ratio: 0.04199
+0.5 Success ratio: 0.04987
+Varence Loss: 8.98411
+
+0.1 Success ratio: 0.01312
+0.2 Success ratio: 0.03412
+0.3 Success ratio: 0.06299
+0.4 Success ratio: 0.07874
+0.5 Success ratio: 0.09186
+Varence Loss: 8.26377
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00262
+0.3 Success ratio: 0.00262
+0.4 Success ratio: 0.00525
+0.5 Success ratio: 0.01312
+Varence Loss: 7.57214
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 18.47890
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00262
+0.3 Success ratio: 0.00262
+0.4 Success ratio: 0.01312
+0.5 Success ratio: 0.01575
+Varence Loss: 9.19104
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 13.59496
+
+0.1 Success ratio: 0.00525
+0.2 Success ratio: 0.00787
+0.3 Success ratio: 0.02362
+0.4 Success ratio: 0.02625
+0.5 Success ratio: 0.05249
+Varence Loss: 8.28520
+
+0.1 Success ratio: 0.04987
+0.2 Success ratio: 0.07349
+0.3 Success ratio: 0.12598
+0.4 Success ratio: 0.17848
+0.5 Success ratio: 0.25722
+Varence Loss: 3.21624
+
+0.1 Success ratio: 0.02100
+0.2 Success ratio: 0.03412
+0.3 Success ratio: 0.08136
+0.4 Success ratio: 0.23622
+0.5 Success ratio: 0.43832
+Varence Loss: 2.94395
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00262
+0.3 Success ratio: 0.00787
+0.4 Success ratio: 0.00787
+0.5 Success ratio: 0.01050
+Varence Loss: 6.87347
+
+0.1 Success ratio: 0.00525
+0.2 Success ratio: 0.01050
+0.3 Success ratio: 0.01575
+0.4 Success ratio: 0.01837
+0.5 Success ratio: 0.02362
+Varence Loss: 15.36609
+
+0.1 Success ratio: 0.04724
+0.2 Success ratio: 0.09449
+0.3 Success ratio: 0.12336
+0.4 Success ratio: 0.20735
+0.5 Success ratio: 0.25984
+Varence Loss: 3.43126
+
+0.1 Success ratio: 0.04724
+0.2 Success ratio: 0.09711
+0.3 Success ratio: 0.13386
+0.4 Success ratio: 0.16010
+0.5 Success ratio: 0.18898
+Varence Loss: 4.21447
+
+0.1 Success ratio: 0.00262
+0.2 Success ratio: 0.01050
+0.3 Success ratio: 0.01575
+0.4 Success ratio: 0.02100
+0.5 Success ratio: 0.03412
+Varence Loss: 7.21148
+
+0.1 Success ratio: 0.05512
+0.2 Success ratio: 0.13386
+0.3 Success ratio: 0.19948
+0.4 Success ratio: 0.28346
+0.5 Success ratio: 0.36745
+Varence Loss: 2.91856
+
+0.1 Success ratio: 0.00000
+0.2 Success ratio: 0.00000
+0.3 Success ratio: 0.00000
+0.4 Success ratio: 0.00000
+0.5 Success ratio: 0.00000
+Varence Loss: 14.51642
+
+0.1 Success ratio: 0.00787
+0.2 Success ratio: 0.02887
+0.3 Success ratio: 0.04724
+0.4 Success ratio: 0.09186
+0.5 Success ratio: 0.09974
+Varence Loss: 3.41319
+
+0.1 Success ratio: 0.21260
+0.2 Success ratio: 0.41470
+0.3 Success ratio: 0.55643
+0.4 Success ratio: 0.66404
+0.5 Success ratio: 0.69291
+Varence Loss: 2.02867
+
+0.1 Success ratio: 0.04987
+0.2 Success ratio: 0.14173
+0.3 Success ratio: 0.22572
+0.4 Success ratio: 0.27034
+0.5 Success ratio: 0.38058
+Varence Loss: 2.56639
+
+0.1 Success ratio: 0.16798
+0.2 Success ratio: 0.27034
+0.3 Success ratio: 0.41470
+0.4 Success ratio: 0.57218
+0.5 Success ratio: 0.69291
+Varence Loss: 2.25512
+
+0.1 Success ratio: 0.20735
+0.2 Success ratio: 0.36220
+0.3 Success ratio: 0.53281
+0.4 Success ratio: 0.63517
+0.5 Success ratio: 0.72441
+Varence Loss: 1.85778
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.37533
+0.3 Success ratio: 0.59055
+0.4 Success ratio: 0.66929
+0.5 Success ratio: 0.72966
+Varence Loss: 1.84851
+
+0.1 Success ratio: 0.14173
+0.2 Success ratio: 0.30971
+0.3 Success ratio: 0.45932
+0.4 Success ratio: 0.55643
+0.5 Success ratio: 0.64304
+Varence Loss: 1.90182
+
+0.1 Success ratio: 0.14173
+0.2 Success ratio: 0.30971
+0.3 Success ratio: 0.45932
+0.4 Success ratio: 0.55643
+0.5 Success ratio: 0.64304
+Varence Loss: 1.90182
+
+0.1 Success ratio: 0.02804
+0.2 Success ratio: 0.04461
+0.3 Success ratio: 0.06182
+0.4 Success ratio: 0.07776
+0.5 Success ratio: 0.09815
+Varence Loss: 3.22502
+
+0.1 Success ratio: 0.02040
+0.2 Success ratio: 0.02677
+0.3 Success ratio: 0.03378
+0.4 Success ratio: 0.06756
+0.5 Success ratio: 0.22562
+Varence Loss: 2.83337
+
+0.1 Success ratio: 0.01785
+0.2 Success ratio: 0.01848
+0.3 Success ratio: 0.01848
+0.4 Success ratio: 0.01912
+0.5 Success ratio: 0.01912
+Varence Loss: 5.63890
+
+0.1 Success ratio: 0.04079
+0.2 Success ratio: 0.06501
+0.3 Success ratio: 0.08540
+0.4 Success ratio: 0.10516
+0.5 Success ratio: 0.11918
+Varence Loss: 4.99559
+
+0.1 Success ratio: 0.01785
+0.2 Success ratio: 0.01848
+0.3 Success ratio: 0.01848
+0.4 Success ratio: 0.01912
+0.5 Success ratio: 0.01912
+Varence Loss: 9.40660
+
+0.1 Success ratio: 0.01785
+0.2 Success ratio: 0.01785
+0.3 Success ratio: 0.01785
+0.4 Success ratio: 0.01785
+0.5 Success ratio: 0.01785
+Varence Loss: 15.76940
+
+0.1 Success ratio: 0.01785
+0.2 Success ratio: 0.01976
+0.3 Success ratio: 0.02040
+0.4 Success ratio: 0.02167
+0.5 Success ratio: 0.02294
+Varence Loss: 12.54275
+
+0.1 Success ratio: 0.01785
+0.2 Success ratio: 0.01848
+0.3 Success ratio: 0.01848
+0.4 Success ratio: 0.01848
+0.5 Success ratio: 0.01848
+Varence Loss: 16.00515
+
+0.1 Success ratio: 0.02804
+0.2 Success ratio: 0.03505
+0.3 Success ratio: 0.06119
+0.4 Success ratio: 0.16762
+0.5 Success ratio: 0.41619
+Varence Loss: 3.67077
+
+0.1 Success ratio: 0.01785
+0.2 Success ratio: 0.01785
+0.3 Success ratio: 0.01785
+0.4 Success ratio: 0.01785
+0.5 Success ratio: 0.01785
+Varence Loss: 46.00807
+
+0.1 Success ratio: 0.02804
+0.2 Success ratio: 0.03888
+0.3 Success ratio: 0.05354
+0.4 Success ratio: 0.06437
+0.5 Success ratio: 0.07138
+Varence Loss: 21.04180
+
+0.1 Success ratio: 0.01785
+0.2 Success ratio: 0.01785
+0.3 Success ratio: 0.01785
+0.4 Success ratio: 0.01785
+0.5 Success ratio: 0.01785
+Varence Loss: 35.69862
+
+0.1 Success ratio: 0.07075
+0.2 Success ratio: 0.11663
+0.3 Success ratio: 0.15934
+0.4 Success ratio: 0.22180
+0.5 Success ratio: 0.28235
+Varence Loss: 3.38257
+
+0.1 Success ratio: 0.01848
+0.2 Success ratio: 0.01848
+0.3 Success ratio: 0.01848
+0.4 Success ratio: 0.01848
+0.5 Success ratio: 0.01848
+Varence Loss: 30.91454
+
+0.1 Success ratio: 0.02040
+0.2 Success ratio: 0.02549
+0.3 Success ratio: 0.02741
+0.4 Success ratio: 0.03187
+0.5 Success ratio: 0.03569
+Varence Loss: 16.08203
+
+0.1 Success ratio: 0.02486
+0.2 Success ratio: 0.03952
+0.3 Success ratio: 0.05226
+0.4 Success ratio: 0.06373
+0.5 Success ratio: 0.07776
+Varence Loss: 15.48136
+
+0.1 Success ratio: 0.02231
+0.2 Success ratio: 0.03123
+0.3 Success ratio: 0.03505
+0.4 Success ratio: 0.03760
+0.5 Success ratio: 0.04334
+Varence Loss: 11.02833
+
+0.1 Success ratio: 0.01785
+0.2 Success ratio: 0.01785
+0.3 Success ratio: 0.01848
+0.4 Success ratio: 0.01848
+0.5 Success ratio: 0.01976
+Varence Loss: 13.50694
+
+0.1 Success ratio: 0.13703
+0.2 Success ratio: 0.22881
+0.3 Success ratio: 0.31358
+0.4 Success ratio: 0.46080
+0.5 Success ratio: 0.56533
+Varence Loss: 2.13124
+
+0.1 Success ratio: 0.01848
+0.2 Success ratio: 0.02040
+0.3 Success ratio: 0.02040
+0.4 Success ratio: 0.02040
+0.5 Success ratio: 0.02103
+Varence Loss: 21.29789
+
+0.1 Success ratio: 0.02167
+0.2 Success ratio: 0.03059
+0.3 Success ratio: 0.03442
+0.4 Success ratio: 0.03952
+0.5 Success ratio: 0.04653
+Varence Loss: 12.96073
+
+0.1 Success ratio: 0.01785
+0.2 Success ratio: 0.01785
+0.3 Success ratio: 0.01785
+0.4 Success ratio: 0.01976
+0.5 Success ratio: 0.01976
+Varence Loss: 14.78781
+
+0.1 Success ratio: 0.04334
+0.2 Success ratio: 0.06055
+0.3 Success ratio: 0.08031
+0.4 Success ratio: 0.10644
+0.5 Success ratio: 0.12874
+Varence Loss: 9.68348
+
+0.1 Success ratio: 0.05226
+0.2 Success ratio: 0.11727
+0.3 Success ratio: 0.19503
+0.4 Success ratio: 0.26641
+0.5 Success ratio: 0.31485
+Varence Loss: 3.23110
+
+0.1 Success ratio: 0.02549
+0.2 Success ratio: 0.03250
+0.3 Success ratio: 0.04143
+0.4 Success ratio: 0.05035
+0.5 Success ratio: 0.05736
+Varence Loss: 14.53144
+
+0.1 Success ratio: 0.05163
+0.2 Success ratio: 0.09242
+0.3 Success ratio: 0.14468
+0.4 Success ratio: 0.21670
+0.5 Success ratio: 0.28107
+Varence Loss: 3.47599
+
+0.1 Success ratio: 0.01785
+0.2 Success ratio: 0.01848
+0.3 Success ratio: 0.01912
+0.4 Success ratio: 0.01912
+0.5 Success ratio: 0.02294
+Varence Loss: 9.53042
+
+0.1 Success ratio: 0.02422
+0.2 Success ratio: 0.03187
+0.3 Success ratio: 0.04143
+0.4 Success ratio: 0.05035
+0.5 Success ratio: 0.05800
+Varence Loss: 4.71797
+
+0.1 Success ratio: 0.01976
+0.2 Success ratio: 0.02167
+0.3 Success ratio: 0.02294
+0.4 Success ratio: 0.02358
+0.5 Success ratio: 0.02549
+Varence Loss: 18.39526
+
+0.1 Success ratio: 0.02741
+0.2 Success ratio: 0.03378
+0.3 Success ratio: 0.04653
+0.4 Success ratio: 0.06055
+0.5 Success ratio: 0.07266
+Varence Loss: 3.99706
+
+0.1 Success ratio: 0.06628
+0.2 Success ratio: 0.09688
+0.3 Success ratio: 0.12110
+0.4 Success ratio: 0.16189
+0.5 Success ratio: 0.20841
+Varence Loss: 3.83216
+
+0.1 Success ratio: 0.01976
+0.2 Success ratio: 0.02294
+0.3 Success ratio: 0.02549
+0.4 Success ratio: 0.02804
+0.5 Success ratio: 0.02932
+Varence Loss: 10.02037
+
+0.1 Success ratio: 0.27406
+0.2 Success ratio: 0.47674
+0.3 Success ratio: 0.58636
+0.4 Success ratio: 0.68897
+0.5 Success ratio: 0.72339
+Varence Loss: 2.35582
+
+0.1 Success ratio: 0.02932
+0.2 Success ratio: 0.03569
+0.3 Success ratio: 0.04908
+0.4 Success ratio: 0.06055
+0.5 Success ratio: 0.07330
+Varence Loss: 3.09637
+
+0.1 Success ratio: 0.14978
+0.2 Success ratio: 0.37094
+0.3 Success ratio: 0.50032
+0.4 Success ratio: 0.63289
+0.5 Success ratio: 0.77693
+Varence Loss: 1.66720
+
+0.1 Success ratio: 0.14595
+0.2 Success ratio: 0.35309
+0.3 Success ratio: 0.48948
+0.4 Success ratio: 0.62970
+0.5 Success ratio: 0.76609
+Varence Loss: 1.68995
+
+0.1 Success ratio: 0.11281
+0.2 Success ratio: 0.29382
+0.3 Success ratio: 0.47801
+0.4 Success ratio: 0.63544
+0.5 Success ratio: 0.76609
+Varence Loss: 1.93156
+
+0.1 Success ratio: 0.05163
+0.2 Success ratio: 0.10899
+0.3 Success ratio: 0.30465
+0.4 Success ratio: 0.52454
+0.5 Success ratio: 0.66922
+Varence Loss: 2.22075
+
+0.1 Success ratio: 0.01848
+0.2 Success ratio: 0.02167
+0.3 Success ratio: 0.02358
+0.4 Success ratio: 0.02422
+0.5 Success ratio: 0.02741
+Varence Loss: 6.19182
+
+0.1 Success ratio: 0.01976
+0.2 Success ratio: 0.02040
+0.3 Success ratio: 0.02294
+0.4 Success ratio: 0.02486
+0.5 Success ratio: 0.02741
+Varence Loss: 6.31926
+
+0.1 Success ratio: 0.15424
+0.2 Success ratio: 0.25813
+0.3 Success ratio: 0.40790
+0.4 Success ratio: 0.53665
+0.5 Success ratio: 0.65647
+Varence Loss: 1.70014
+
+0.1 Success ratio: 0.01848
+0.2 Success ratio: 0.02103
+0.3 Success ratio: 0.02422
+0.4 Success ratio: 0.03123
+0.5 Success ratio: 0.03378
+Varence Loss: 5.40915
+
+0.1 Success ratio: 0.21415
+0.2 Success ratio: 0.41300
+0.3 Success ratio: 0.59273
+0.4 Success ratio: 0.74187
+0.5 Success ratio: 0.80816
+Varence Loss: 1.47484
+
+0.1 Success ratio: 0.07202
+0.2 Success ratio: 0.15679
+0.3 Success ratio: 0.24028
+0.4 Success ratio: 0.31485
+0.5 Success ratio: 0.38305
+Varence Loss: 2.19062
+
+0.1 Success ratio: 0.20905
+0.2 Success ratio: 0.40982
+0.3 Success ratio: 0.59082
+0.4 Success ratio: 0.73040
+0.5 Success ratio: 0.81581
+Varence Loss: 1.45301
+
+0.1 Success ratio: 0.26641
+0.2 Success ratio: 0.45825
+0.3 Success ratio: 0.61440
+0.4 Success ratio: 0.72339
+0.5 Success ratio: 0.80242
+Varence Loss: 1.56981
+
+0.1 Success ratio: 0.03824
+0.2 Success ratio: 0.09815
+0.3 Success ratio: 0.24156
+0.4 Success ratio: 0.46654
+0.5 Success ratio: 0.64755
+Varence Loss: 2.10458
+
+0.1 Success ratio: 0.09178
+0.2 Success ratio: 0.27024
+0.3 Success ratio: 0.45443
+0.4 Success ratio: 0.62588
+0.5 Success ratio: 0.75335
+Varence Loss: 1.82808
+
+0.1 Success ratio: 0.22498
+0.2 Success ratio: 0.41236
+0.3 Success ratio: 0.59847
+0.4 Success ratio: 0.69216
+0.5 Success ratio: 0.79860
+Varence Loss: 1.61442
+
+0.1 Success ratio: 0.32059
+0.2 Success ratio: 0.53983
+0.3 Success ratio: 0.66539
+0.4 Success ratio: 0.77820
+0.5 Success ratio: 0.82537
+Varence Loss: 1.40382
+
+0.1 Success ratio: 0.32059
+0.2 Success ratio: 0.53983
+0.3 Success ratio: 0.66539
+0.4 Success ratio: 0.77820
+0.5 Success ratio: 0.82537
+Varence Loss: 1.40382
+
+0.1 Success ratio: 0.20210
+0.2 Success ratio: 0.42257
+0.3 Success ratio: 0.60630
+0.4 Success ratio: 0.76115
+0.5 Success ratio: 0.85302
+Varence Loss: 1.35005
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.46457
+0.3 Success ratio: 0.66929
+0.4 Success ratio: 0.77165
+0.5 Success ratio: 0.86352
+Varence Loss: 1.21512
+
+0.1 Success ratio: 0.18373
+0.2 Success ratio: 0.36745
+0.3 Success ratio: 0.55381
+0.4 Success ratio: 0.63517
+0.5 Success ratio: 0.79003
+Varence Loss: 1.22549
+
+0.1 Success ratio: 0.21260
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.54593
+0.4 Success ratio: 0.68504
+0.5 Success ratio: 0.85302
+Varence Loss: 1.21276
+
+0.1 Success ratio: 0.20997
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56168
+0.4 Success ratio: 0.69816
+0.5 Success ratio: 0.86352
+Varence Loss: 1.18033
+
+0.1 Success ratio: 0.22572
+0.2 Success ratio: 0.44882
+0.3 Success ratio: 0.57480
+0.4 Success ratio: 0.73491
+0.5 Success ratio: 0.87664
+Varence Loss: 1.16998
+
+0.1 Success ratio: 0.21522
+0.2 Success ratio: 0.40157
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.69029
+0.5 Success ratio: 0.81102
+Varence Loss: 1.45692
+
+0.1 Success ratio: 0.20472
+0.2 Success ratio: 0.42520
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.70604
+0.5 Success ratio: 0.86089
+Varence Loss: 1.17469
+
+0.1 Success ratio: 0.17323
+0.2 Success ratio: 0.37270
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.64304
+0.5 Success ratio: 0.79003
+Varence Loss: 1.21177
+
+0.1 Success ratio: 0.19423
+0.2 Success ratio: 0.36220
+0.3 Success ratio: 0.55643
+0.4 Success ratio: 0.64567
+0.5 Success ratio: 0.78215
+Varence Loss: 1.23716
+
+0.1 Success ratio: 0.21260
+0.2 Success ratio: 0.36483
+0.3 Success ratio: 0.54068
+0.4 Success ratio: 0.64567
+0.5 Success ratio: 0.78215
+Varence Loss: 1.24100
+
+0.1 Success ratio: 0.17323
+0.2 Success ratio: 0.36220
+0.3 Success ratio: 0.52493
+0.4 Success ratio: 0.64567
+0.5 Success ratio: 0.78215
+Varence Loss: 1.24758
+
+0.1 Success ratio: 0.17585
+0.2 Success ratio: 0.37533
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.64304
+0.5 Success ratio: 0.79003
+Varence Loss: 1.21436
+
+0.1 Success ratio: 0.17323
+0.2 Success ratio: 0.37270
+0.3 Success ratio: 0.56430
+0.4 Success ratio: 0.64304
+0.5 Success ratio: 0.79003
+Varence Loss: 1.21177
+
+0.1 Success ratio: 0.19423
+0.2 Success ratio: 0.39633
+0.3 Success ratio: 0.55643
+0.4 Success ratio: 0.67192
+0.5 Success ratio: 0.82152
+Varence Loss: 1.20079
+
+0.1 Success ratio: 0.19423
+0.2 Success ratio: 0.38320
+0.3 Success ratio: 0.55643
+0.4 Success ratio: 0.67192
+0.5 Success ratio: 0.83465
+Varence Loss: 1.19527
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.40420
+0.3 Success ratio: 0.55643
+0.4 Success ratio: 0.66404
+0.5 Success ratio: 0.83465
+Varence Loss: 1.19233
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.40420
+0.3 Success ratio: 0.55906
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.83990
+Varence Loss: 1.19051
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.40420
+0.3 Success ratio: 0.55906
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.83990
+Varence Loss: 1.19014
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.40420
+0.3 Success ratio: 0.55906
+0.4 Success ratio: 0.67717
+0.5 Success ratio: 0.83990
+Varence Loss: 1.18978
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.40420
+0.3 Success ratio: 0.55906
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.83990
+Varence Loss: 1.19014
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.40420
+0.3 Success ratio: 0.55906
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.83990
+Varence Loss: 1.19087
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.40420
+0.3 Success ratio: 0.55643
+0.4 Success ratio: 0.66404
+0.5 Success ratio: 0.83465
+Varence Loss: 1.19233
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.40420
+0.3 Success ratio: 0.55381
+0.4 Success ratio: 0.67192
+0.5 Success ratio: 0.83465
+Varence Loss: 1.19342
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18550
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.40945
+0.3 Success ratio: 0.55643
+0.4 Success ratio: 0.68241
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18738
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.40157
+0.3 Success ratio: 0.55906
+0.4 Success ratio: 0.68241
+0.5 Success ratio: 0.85302
+Varence Loss: 1.18941
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18488
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.40945
+0.3 Success ratio: 0.55643
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18707
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18394
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.40945
+0.3 Success ratio: 0.55643
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18613
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.40945
+0.3 Success ratio: 0.55381
+0.4 Success ratio: 0.68241
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18771
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18550
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.40945
+0.3 Success ratio: 0.55643
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18707
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18550
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18394
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18519
+
+0.1 Success ratio: 0.21785
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.67979
+0.5 Success ratio: 0.85039
+Varence Loss: 1.18425
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.70079
+0.5 Success ratio: 0.85827
+Varence Loss: 1.18300
+
+0.1 Success ratio: 0.22047
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56955
+0.4 Success ratio: 0.70079
+0.5 Success ratio: 0.85827
+Varence Loss: 1.18238
+
+0.1 Success ratio: 0.20997
+0.2 Success ratio: 0.42782
+0.3 Success ratio: 0.56693
+0.4 Success ratio: 0.70079
+0.5 Success ratio: 0.85827
+Varence Loss: 1.18023
+
+0.1 Success ratio: 0.20997
+0.2 Success ratio: 0.42520
+0.3 Success ratio: 0.56693
+0.4 Success ratio: 0.70079
+0.5 Success ratio: 0.85827
+Varence Loss: 1.17963
+

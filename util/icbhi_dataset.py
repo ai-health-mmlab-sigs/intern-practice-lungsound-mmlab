@@ -6,6 +6,7 @@ import random
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
+import random
 
 import librosa
 import torch
@@ -183,6 +184,62 @@ class ICBHIDataset(Dataset):
 
             # "SCL" version
             self.audio_data.append(sample)
+
+        
+        #@aug_imbalance
+        '''
+        第一种方法：
+        简单暴力地将所有的患病周期都进行增强。直到每一类患病周期都 >= 健康周期个数 / 2。
+        使用仓库中原有的函数 augment_raw_audio
+        个人认为，这种方法的缺陷是增强后的信息与增强前基本相同，提供的有效信息是有限的，或者说仅仅是把数量少的类多训练了几遍。
+        '''
+        print('Start aug_imbalence!')
+        classes = [[], [], [], []]
+        for sample in self.audio_data:
+            assert sample[1] < 4
+            classes[sample[1]].append(sample)
+        
+        for i in range(1, 4):
+            while len(classes[i]) < len(classes[0]) / 2:
+                tmp_list = []
+                for sample in classes[i]:
+                    # 先对所有通道求个平均，再降维。
+                    if not isinstance(sample[0], torch.Tensor):
+                        print(sample[0])
+                    # print(type(sample[0]))
+                    new_audio = torch.mean(sample[0], dim=0)
+                    # 利用仓库中原有的函数 augment_raw_audio 进行增强，并转换为需要的形状
+                    new_audio = augment_raw_audio(new_audio.numpy(), self.sample_rate, self.args)
+                    new_audio = torch.tensor(new_audio)
+                    new_audio = new_audio.resize(1, len(new_audio))
+                    tmp_list.append((new_audio, sample[1], sample[2]))
+                classes[i].extend(tmp_list)
+            print('Finish aug_imbalence: {}'.format(i))
+
+        self.audio_data = []
+        for i in range(4):
+            self.audio_data.extend(classes[i])
+        
+        self.metadata = []
+        for sample in self.audio_data:
+            self.metadata.append(sample[2])
+
+
+        #@aug_imbalance
+        '''
+        第二种方法： TODO
+        依据论文 https://www.isca-speech.org/archive/interspeech_2020/ma20_interspeech.html
+        2.2 "Mixup" Data Augmentation method 中的方法
+
+        由先验知识，一个有问题的呼吸周期与一个正常呼吸周期相合并，结果仍然是一个问题周期。
+        所以这里直接暴力叠加：枚举每一个问题周期，随机寻找一个正常周期与它叠加。直到：每一类问题周期的个数 >= 正常周期个数 / 2
+        问题：是否需要取元信息（设备、部位）相同的正常周期与问题周期叠加。
+        考虑之后不应该强制元信息相似。
+        此外，叠加的时候一定要在长度归一化之后。
+        没有实现，不是因为难写，而是没搞明白 mel 谱图能否简单直接相加？应该对谱图加还是对音波加？这里有本质区别
+        '''
+        
+
         # ==========================================================================
 
         self.class_nums = np.zeros(args.n_cls)
