@@ -4,14 +4,13 @@ import sys
 import json
 import warnings
 warnings.filterwarnings("ignore")
-
+from MulticoreTSNE import MulticoreTSNE as TSNE
 import math
 import time
 import random
 import pickle
 import argparse
 import numpy as np
-
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -45,7 +44,7 @@ def parse_args():
     
     # optimization
     parser.add_argument('--optimizer', type=str, default='adam')
-    parser.add_argument('--epochs', type=int, default=400)
+    parser.add_argument('--epochs', type=int, default=20)
     parser.add_argument('--learning_rate', type=float, default=1e-3)
     parser.add_argument('--lr_decay_epochs', type=str, default='120,160')
     parser.add_argument('--lr_decay_rate', type=float, default=0.1)
@@ -67,8 +66,8 @@ def parse_args():
     # dataset
     parser.add_argument('--dataset', type=str, default='icbhi')
     parser.add_argument('--data_folder', type=str, default='./data/')
-    parser.add_argument('--batch_size', type=int, default=128)
-    parser.add_argument('--num_workers', type=int, default=8)
+    parser.add_argument('--batch_size', type=int, default=32)
+    parser.add_argument('--num_workers', type=int, default=4)
     # icbhi dataset
     parser.add_argument('--class_split', type=str, default='lungsound',
                         help='lungsound: (normal, crackles, wheezes, both), diagnosis: (healthy, chronic diseases, non-chronic diseases)')
@@ -184,6 +183,7 @@ def parse_args():
     return args
 
 
+#准备和配置与训练相关的数据加载流程，包括选择数据集、数据转换、采样方式
 def set_loader(args):
     if args.dataset == 'icbhi':
         # get rawo information and calculate mean and std for normalization
@@ -198,7 +198,8 @@ def set_loader(args):
         #     print('Device {} ({}): {} number of patience'.format(id, device, len(dataset.device_id_to_patient[id])))
         # print('Spectrogram shpae on ICBHI dataset: {} (height) and {} (width)'.format(args.h, args.w))
         # print('Mean and std of ICBHI dataset: {} (mean) and {} (std)'.format(round(mean.item(), 2), round(std.item(), 2)))
-        
+        #数据转换 在训练集的数据转换部分，通过 SpecAugment(args) 函数引入了一些数据增强的操作。
+        # SpecAugment 可能是一个包含对音频频谱图进行增强的自定义转换函数。这可能包括 SpecAugment 中的时间维度和频率维度的遮蔽等操作。
         args.h, args.w = 798, 128
         train_transform = [transforms.ToTensor(),
                             SpecAugment(args),
@@ -218,7 +219,9 @@ def set_loader(args):
         args.class_nums = train_dataset.class_nums
     else:
         raise NotImplemented    
-    
+    #如果 args.weighted_sampler 为 True，则计算每个样本的权重，以便在训练中使用加权随机采样。
+    # 如果 False，则设置 sampler 为 None，表示不使用加权采样
+    #通过样本权重引入了一定程度的数据偏重，这可以视为一种类似于数据增强的操作
     if args.weighted_sampler:
         reciprocal_weights = []
         for idx in range(len(train_dataset)):
@@ -235,7 +238,7 @@ def set_loader(args):
 
     return train_loader, val_loader, args
 
-
+#创建一个适用于本项目深度学习任务的模型，并配置好相关的组件和参数，以便进行训练
 def set_model(args):    
     kwargs = {}
     if args.model == 'ast':
@@ -404,7 +407,7 @@ def train(train_loader, model, classifier, projector, criterion, optimizer, epoc
 
     return losses.avg, top1.avg
 
-
+#负责训练模型，通过多次调用这个函数可以进行多个训练周期，逐渐提高模型的性能
 def validate(val_loader, model, classifier, criterion, args, best_acc, best_model=None):
     save_bool = False
     model.eval()
@@ -414,6 +417,8 @@ def validate(val_loader, model, classifier, criterion, args, best_acc, best_mode
     losses = AverageMeter()
     top1 = AverageMeter()
     hits, counts = [0.0] * args.n_cls, [0.0] * args.n_cls
+    #声明混淆矩阵
+    confusion_matrix = [[0] * args.n_cls for _ in range(args.n_cls)]
 
     with torch.no_grad():
         end = time.time()
@@ -434,6 +439,13 @@ def validate(val_loader, model, classifier, criterion, args, best_acc, best_mode
             _, preds = torch.max(output, 1)
             for idx in range(preds.shape[0]):
                 counts[labels[idx].item()] += 1.0
+                #在这里生成分类文件data/classifier.txt
+                # with open("data/classifier.txt", 'a') as f:
+                #     f_name = batch_files[idx]
+                #     line = f_name + "is class: " + str(labels[idx].item()) + " classified to: " + str(preds[idx].item()) + "\n"
+                #     f.write(line)
+               #@matrix
+                confusion_matrix[labels[idx].item()][preds[idx].item()] += 1.0
                 if not args.two_cls_eval:
                     if preds[idx].item() == labels[idx].item():
                         hits[labels[idx].item()] += 1.0
@@ -442,6 +454,15 @@ def validate(val_loader, model, classifier, criterion, args, best_acc, best_mode
                         hits[labels[idx].item()] += 1.0
                     elif labels[idx].item() != 0 and preds[idx].item() > 0:  # abnormal
                         hits[labels[idx].item()] += 1.0
+            # print('*' * 20)
+            # print("hits:", hits)
+            # print("counts", counts)
+            #打印二维数组
+            for row in confusion_matrix:
+                print(row)
+            print('*' * 20)
+
+
 
             sp, se, sc = get_score(hits, counts)
 
@@ -479,7 +500,7 @@ def main():
     torch.cuda.manual_seed(args.seed)
     cudnn.deterministic = True
     cudnn.benchmark = True
-    
+
     best_model = None
     if args.dataset == 'icbhi':
         best_acc = [0, 0, 0]  # Specificity, Sensitivity, Score
