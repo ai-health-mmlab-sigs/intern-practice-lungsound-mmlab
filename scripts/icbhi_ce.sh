@@ -1,5 +1,5 @@
 
-MODEL="ast"
+MODEL="resnet18"
 SEED="1"
 
 for s in $SEED
@@ -7,7 +7,7 @@ do
     for m in $MODEL
     do
         TAG="bs8_lr5e-5_ep50_seed${s}"
-        CUDA_VISIBLE_DEVICES=0 python main.py --tag $TAG \
+        CUDA_VISIBLE_DEVICES=0,1 python main.py --tag $TAG \
                                         --dataset icbhi \
                                         --seed $s \
                                         --class_split lungsound \
