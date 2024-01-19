@@ -1,5 +1,5 @@
 
-MODEL="ast"
+MODEL="resnet"
 SEED="1"
 
 for s in $SEED
@@ -12,7 +12,7 @@ do
                                         --seed $s \
                                         --class_split lungsound \
                                         --n_cls 4 \
-                                        --epochs 50 \
+                                        --epochs 100 \
                                         --batch_size 8 \
                                         --optimizer adam \
                                         --learning_rate 5e-5 \
