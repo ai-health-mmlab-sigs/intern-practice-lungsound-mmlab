@@ -222,7 +222,7 @@ def get_individual_cycles_torchaudio(args, recording_annotations, metadata, data
     """
     sample_data = []
     fpath = os.path.join(data_folder, filename+'.wav')
-        
+
     sr = librosa.get_samplerate(fpath)
     data, _ = torchaudio.load(fpath)
     
@@ -242,6 +242,8 @@ def get_individual_cycles_torchaudio(args, recording_annotations, metadata, data
         start = row['Start'] # time (second)
         end = row['End'] # time (second)
         audio_chunk = _slice_data_torchaudio(start, end, data, sample_rate)
+
+        assert(args.class_split == 'lungsound')
 
         if args.class_split == 'lungsound':
             crackles = row['Crackles']
@@ -493,16 +495,26 @@ def concat_augmentation(classwise_cycle_list, cycle_list, scale=1.):
 
 # ==========================================================================
 """ evaluation metric """
-def get_score(hits, counts, pflag=False):
+def get_score(hits, counts, pflag=False, classes=None):
     # normal accuracy
     sp = hits[0] / (counts[0] + 1e-10) * 100
     # abnormal accuracy
     se = sum(hits[1:]) / (sum(counts[1:]) + 1e-10) * 100
     sc = (sp + se) / 2.0
+    
+    confusion_matrix = np.zeros((len(hits), len(hits)), dtype=int)
+    if classes is not None:
+        for i in range(len(hits)):
+            for j in range(len(hits)):
+                confusion_matrix[i][j] = classes[i][j] / (counts[j] + 1e-10) * 100
 
     if pflag:
-        # print("************* Metrics ******************")
+        print("************* Metrics ******************")
+        #@matrix
+        print('confusion_matrix:')
+        print(confusion_matrix)
         print("S_p: {}, S_e: {}, Score: {}".format(sp, se, sc))
 
-    return sp, se, sc
+    return sp, se, sc, confusion_matrix
 # ==========================================================================
+
