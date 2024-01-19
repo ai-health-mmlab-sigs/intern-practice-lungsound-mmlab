@@ -26,7 +26,11 @@ from util.misc import AverageMeter, accuracy, save_model, update_json
 from models import get_backbone_class, Projector
 from method import PatchMixLoss, PatchMixConLoss
 
-
+from sklearn.metrics import confusion_matrix
+import seaborn as sn
+import pandas as pd
+from scipy.io import wavfile
+import os
 def parse_args():
     parser = argparse.ArgumentParser('argument for supervised training')
 
@@ -45,7 +49,8 @@ def parse_args():
     
     # optimization
     parser.add_argument('--optimizer', type=str, default='adam')
-    parser.add_argument('--epochs', type=int, default=400)
+    # 在线程为2且batch_size为4的情况下，跑一轮就5h左右
+    parser.add_argument('--epochs', type=int, default=100) # 训练轮数为100
     parser.add_argument('--learning_rate', type=float, default=1e-3)
     parser.add_argument('--lr_decay_epochs', type=str, default='120,160')
     parser.add_argument('--lr_decay_rate', type=float, default=0.1)
@@ -67,12 +72,12 @@ def parse_args():
     # dataset
     parser.add_argument('--dataset', type=str, default='icbhi')
     parser.add_argument('--data_folder', type=str, default='./data/')
-    parser.add_argument('--batch_size', type=int, default=128)
-    parser.add_argument('--num_workers', type=int, default=8)
+    parser.add_argument('--batch_size', type=int, default=64)#====由128改到64（电脑算力不足）=====
+    parser.add_argument('--num_workers', type=int, default=0)#==可以理解为线程,由8到0==========
     # icbhi dataset
     parser.add_argument('--class_split', type=str, default='lungsound',
                         help='lungsound: (normal, crackles, wheezes, both), diagnosis: (healthy, chronic diseases, non-chronic diseases)')
-    parser.add_argument('--n_cls', type=int, default=4,
+    parser.add_argument('--n_cls', type=int, default=4, # 也可以设置成2(正常/异常)
                         help='set k-way classification problem')
     parser.add_argument('--test_fold', type=str, default='official', choices=['official', '0', '1', '2', '3', '4'],
                         help='test fold to use official 60-40 split or 80-20 split from RespireNet')
@@ -106,7 +111,8 @@ def parse_args():
                         help='specaug mask value', choices=['mean', 'zero'])
 
     # model
-    parser.add_argument('--model', type=str, default='ast')
+    # 在这里将model设置为resnet18
+    parser.add_argument('--model', type=str, default='resnet18')
     parser.add_argument('--pretrained', action='store_true')
     parser.add_argument('--pretrained_ckpt', type=str, default=None,
                         help='path to pre-trained encoder model')
@@ -166,7 +172,7 @@ def parse_args():
                     1 + math.cos(math.pi * args.warm_epochs / args.epochs)) / 2
         else:
             args.warmup_to = args.learning_rate
-
+    # 根据设置的类的数目不同，最后类也有所变化
     if args.dataset == 'icbhi':
         if args.class_split == 'lungsound':
             if args.n_cls == 4:
@@ -254,7 +260,10 @@ def set_model(args):
         kwargs['pretrain_stage'] = not args.audioset_pretrained
         kwargs['load_pretrained_mdl_path'] = args.ssast_pretrained_type
         kwargs['mix_beta'] = args.mix_beta  # for Patch-MixCL
-
+    # 在下面添加resnet类及其参数
+    elif args.model == 'resnet18':
+        kwargs['track_bn'] = 1
+    # 这里的args.model仍然是resnet18
     model = get_backbone_class(args.model)(**kwargs)    
     classifier = nn.Linear(model.final_feat_dim, args.n_cls) if args.model not in ['ast', 'ssast'] else deepcopy(model.mlp_head)
 
@@ -403,13 +412,19 @@ def train(train_loader, model, classifier, projector, criterion, optimizer, epoc
             sys.stdout.flush()
 
     return losses.avg, top1.avg
-
-
+# @matrix
+label_pred = []
+label_true = []
 def validate(val_loader, model, classifier, criterion, args, best_acc, best_model=None):
     save_bool = False
+    #========================
+    # @matrix
+    #checkpoint = torch.load('F:\\github\\mmlab-sigs\\save\\icbhi_resnet18_ce\\epoch_100.pth')
+    #print(checkpoint)
+    #model.load_state_dict(checkpoint['model'])
+    #==========================================
     model.eval()
     classifier.eval()
-
     batch_time = AverageMeter()
     losses = AverageMeter()
     top1 = AverageMeter()
@@ -418,10 +433,11 @@ def validate(val_loader, model, classifier, criterion, args, best_acc, best_mode
     with torch.no_grad():
         end = time.time()
         for idx, (images, labels, metadata) in enumerate(val_loader):
-            images = images.cuda(non_blocking=True)
+            #print(f'idx:{idx}\nlabels:{labels}\n')
+            images = images.cuda(non_blocking=True) #是否启用异步数据传输以提高计算效率
             labels = labels.cuda(non_blocking=True)
-            bsz = labels.shape[0]
-
+            bsz = labels.shape[0] # 返回图像的维度
+            #print(f'idx和label的值分别为\n {idx} 和 {labels}') #idx最大是43？
             with torch.cuda.amp.autocast():
                 features = model(images)
                 output = classifier(features)
@@ -432,6 +448,10 @@ def validate(val_loader, model, classifier, criterion, args, best_acc, best_mode
             top1.update(acc1[0], bsz)
 
             _, preds = torch.max(output, 1)
+
+            #======================================
+            label_pred.extend(preds.tolist())
+            label_true.extend(labels.tolist())
             for idx in range(preds.shape[0]):
                 counts[labels[idx].item()] += 1.0
                 if not args.two_cls_eval:
@@ -461,8 +481,12 @@ def validate(val_loader, model, classifier, criterion, args, best_acc, best_mode
         best_acc = [sp, se, sc]
         best_model = [deepcopy(model.state_dict()), deepcopy(classifier.state_dict())]
 
+
     print(' * S_p: {:.2f}, S_e: {:.2f}, Score: {:.2f} (Best S_p: {:.2f}, S_e: {:.2f}, Score: {:.2f})'.format(sp, se, sc, best_acc[0], best_acc[1], best_acc[-1]))
     print(' * Acc@1 {top1.avg:.2f}'.format(top1=top1))
+    #============================================
+    #@matrix
+    conf_matrix(label_true,label_pred)
 
     return best_acc, best_model, save_bool
 
@@ -485,8 +509,10 @@ def main():
         best_acc = [0, 0, 0]  # Specificity, Sensitivity, Score
 
     train_loader, val_loader, args = set_loader(args)
+    # set_model返回:return model, classifier, projector, criterion, optimizer
     model, classifier, projector, criterion, optimizer = set_model(args)
-
+    #print(f'model的值为:\n{model}(515)')
+    # 检测是否提供checkpoint文件并从该文件中恢复模型信息以继续上次训练
     if args.resume:
         if os.path.isfile(args.resume):
             print("=> loading checkpoint '{}'".format(args.resume))
@@ -507,19 +533,20 @@ def main():
     print('*' * 20)
     if not args.eval:
         print('Training for {} epochs on {} dataset'.format(args.epochs, args.dataset))
+        # 这里开始训练
         for epoch in range(args.start_epoch, args.epochs+1):
             adjust_learning_rate(args, optimizer, epoch)
 
-            # train for one epoch
+            #train for one epoch
             time1 = time.time()
             loss, acc = train(train_loader, model, classifier, projector, criterion, optimizer, epoch, args, scaler)
             time2 = time.time()
             print('Train epoch {}, total time {:.2f}, accuracy:{:.2f}'.format(
                 epoch, time2-time1, acc))
-            
-            # eval for one epoch
+
+            # eval for one epoch                                  resnet18
             best_acc, best_model, save_bool = validate(val_loader, model, classifier, criterion, args, best_acc, best_model)
-            
+            #print(f'best_mode为：\n{best_model}(550)')
             # save a checkpoint of model and classifier when the best score is updated
             if save_bool:            
                 save_file = os.path.join(args.save_folder, 'best_epoch_{}.pth'.format(epoch))
@@ -529,17 +556,86 @@ def main():
             if epoch % args.save_freq == 0:
                 save_file = os.path.join(args.save_folder, 'epoch_{}.pth'.format(epoch))
                 save_model(model, optimizer, args, epoch, save_file, classifier)
+        
 
         # save a checkpoint of classifier with the best accuracy or score
         save_file = os.path.join(args.save_folder, 'best.pth')
+        #===========
+        #resnet18
         model.load_state_dict(best_model[0])
         classifier.load_state_dict(best_model[1])
         save_model(model, optimizer, args, epoch, save_file, classifier)
     else:
         print('Testing the pretrained checkpoint on {} dataset'.format(args.dataset))
         best_acc, _, _  = validate(val_loader, model, classifier, criterion, args, best_acc)
-
     update_json('%s' % args.model_name, best_acc, path=os.path.join(args.save_dir, 'results.json'))
+# @matrix
+def conf_matrix(label_true, label_pred):
+    ##===========混淆矩阵===============
+    #print(label_pred)
+    #print(label_true)
+    #label_pred = label_true
+    #c_matrix = confusion_matrix(label_true,label_pred,labels=['normal','crackle','wheeze','both'])
+    import matplotlib.pyplot as plt
+    _,ax = plt.subplots()
+    c_matrix = confusion_matrix(label_true,label_pred,labels=[0,1,2,3])
+    c_matrix = pd.DataFrame(c_matrix,index=['normal','crackle','wheeze','both'],columns=['normal','crackle','wheeze','both'])
+    fig = sn.heatmap(c_matrix,annot=True,fmt='d',cmap='Blues')
+    ax.set_title('confusion matrix') #标题
+    ax.set_xlabel('predict') #x 轴
+    ax.set_ylabel('ground_true') #y 轴
+    heatmap = fig.get_figure()
+    heatmap.savefig('ConfusionMatrix.png', dpi=300)  
+    print('confusion_matrix is ok!')
+# @data_aug 
+def wgn(snr=0.1):
+    '''
+    Ps:信号有效功率
+    Pn:噪声有效功率
+    snr:白噪声的强度(dB).根据噪音功率公式，snr越小，噪声反而越大，经测试snr=0.1时噪音比较合适
+    备注:由于计算量太大，运行时间长所以当时只是从原数据集中筛选了100个添加噪声
+    '''
+    path = r'..\data\icbhi_dataset\audio_test_data'
+    files = os.listdir(path)
+    print(files[:10])
+    # 得到数据集中wav文件所在的路径列表
+    files_path = [path + '\\' + f for f in files if f.endswith('.wav')]
+    for wav_file in files_path:
+        # 打开音频
+        with wave.open(wav_file, 'rb') as wr:
+            # 返回对应参数：(nchannels, sampwidth, framerate, nframes, comptype, compname)
+            params = wr.getparams()
+            # 采样位数
+            sampwidth = params[1]
+            # 采样频率
+            framerate = params[2]
+            # 总帧数
+            nframes = params[3]
+            # 读取音频数据
+            #x = wr.readframes(nframes) #类型不匹配，由于时间比较紧张，所以没仔细去改，因此用的一个新的库
+            _, x = wavfile.read(wav_file) # 返回采样率和从文件读取的数据
+        len_x = x.shape
+        #print(type(len_x))
+        len_x = len_x[0]
+        #print(len_x)
+        #print(type(len_x))
+        Ps = np.sum(np.power(x, 2)) / len_x
+        Pn = Ps / (np.power(10, snr / 10))
+        noise = np.random.randn(len_x) * np.sqrt(Pn)
+        x_noise = x + noise
+        with wave.open("wav_file", 'wb') as ww:
+            # 分别设置各项参数
+            ww.setparams(params)
+            # 帧数据是字节串格式，索引 = 秒数 * 采样字节长度 * 采样频率
+            ww.writeframes(x_noise)
 
 if __name__ == '__main__':
+    # wgn(0.1) #添加噪声的函数的调用应在main函数调用之前
+    import time
+    start = time.time()
     main()
+    end = time.time()
+    delta_time = (end-start) / 60
+    print(f'本次用时{delta_time}min')
+    #conf_matrix()
+

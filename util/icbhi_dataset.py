@@ -20,8 +20,10 @@ from .augmentation import augment_raw_audio
 
 class ICBHIDataset(Dataset):
     def __init__(self, train_flag, transform, args, print_flag=True, mean_std=False):
+        # 根据主函数调用的参数arg.data_folder=./data/
         data_folder = os.path.join(args.data_folder, 'icbhi_dataset/audio_test_data')
         folds_file = os.path.join(args.data_folder, 'icbhi_dataset/patient_list_foldwise.txt')
+        # 查阅official_split.txt，知test为381个，train为539个，共计920个，符合下载的数据集
         official_folds_file = os.path.join(args.data_folder, 'icbhi_dataset/official_split.txt')
         test_fold = args.test_fold
         
@@ -52,6 +54,7 @@ class ICBHIDataset(Dataset):
 
         filenames = os.listdir(data_folder)
         filenames =set([f.strip().split('.')[0] for f in filenames if '.wav' in f or '.txt' in f])
+        #fff1 = 0
         for f in filenames:
             f += '.wav'
             # get the total number of devices from original dataset (icbhi dataset has 4 stethoscope devices)
@@ -60,13 +63,19 @@ class ICBHIDataset(Dataset):
             #     self.device_to_id[device] = device_id
             #     self.device_id_to_patient[device_id] = []
             #     device_id += 1
-            
+            #print(device)
+            #print(type(device))
+            #device = str(device)
             # get the device information for each wav file
+            # 第一次报错在此处，需要删除数据集文件夹下的最后两个format和difference的txt文件
             self.file_to_device[f.strip().split('.')[0]] = self.device_to_id[device]
-
+            
             pat_id = f.strip().split('_')[0]
             if pat_id not in self.device_id_to_patient[self.device_to_id[device]]:
                 self.device_id_to_patient[self.device_to_id[device]].append(pat_id)
+            #fff1 = fff1 + 1
+            #print(fff1)
+            #print(device)
 
         # store all metadata (age, sex, adult_BMI, child_weight, child_height, device_index)
         self.file_to_metadata = {}
@@ -80,7 +89,6 @@ class ICBHIDataset(Dataset):
             info = np.array(info)
             for idx in np.argwhere(np.isnan(info)):
                 info[idx] = -1
-
             self.file_to_metadata[f] = torch.tensor(np.append(info, self.file_to_device[f.strip()]))
         # ==========================================================================
 

@@ -3,6 +3,8 @@ from .resnet import ResNet10, ResNet18, ResNet34, ResNet50, ResNet101
 from .efficientnet import EfficientNet_B0, EfficientNet_B1, EfficientNet_B2
 from .ast import ASTModel
 from .ssast import SSASTModel
+
+#from .lstm import LSTM #=============
 from .projector import Projector
 
 _backbone_class_map = {
@@ -17,6 +19,7 @@ _backbone_class_map = {
     'efficientnet_b2': EfficientNet_B2,
     'ast': ASTModel,
     'ssast': SSASTModel
+    #'lstm': LSTM #==========
 }
 
 
