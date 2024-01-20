@@ -62,6 +62,9 @@ class ICBHIDataset(Dataset):
             #     device_id += 1
             
             # get the device information for each wav file
+            # print("f:", f)
+            # print("device:", device)
+            # print("self.device_to_id:", self.device_to_id)
             self.file_to_device[f.strip().split('.')[0]] = self.device_to_id[device]
 
             pat_id = f.strip().split('_')[0]
