@@ -506,3 +506,35 @@ def get_score(hits, counts, pflag=False):
 
     return sp, se, sc
 # ==========================================================================
+
+
+# ==========================================================================
+""" confusion metric """
+
+
+
+#@matrix
+# ==========================================================================
+'''
+    for idx in range(preds.shape[0]):
+                    counts[labels[idx].item()] += 1.0
+                    if not args.two_cls_eval:
+                        if preds[idx].item() == labels[idx].item():
+                            hits[labels[idx].item()][labels[idx].item()]+= 1.0
+                        else:
+                            hits[preds[idx].item()][labels[idx].item()]+= 1.0
+                    else:  # only when args.n_cls == 2,not 4???
+                        if labels[idx].item() == 0 and preds[idx].item() == labels[idx].item():
+                            hits[labels[idx].item()][labels[idx].item()] += 1.0
+                        elif labels[idx].item() != 0 and preds[idx].item() > 0:  # abnormal
+                            hits[labels[idx].item()][labels[idx].item()] += 1.0
+                        else:
+                            hits[preds[idx].item()][labels[idx].item()]+= 1.0
+
+
+print("Confusion Matrix:")
+print(hits)                       
+# ==========================================================================
+'''
+
+

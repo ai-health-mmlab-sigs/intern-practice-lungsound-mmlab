@@ -1,5 +1,5 @@
 
-MODEL="ast"
+MODEL="resnet18"
 SEED="1"
 
 for s in $SEED

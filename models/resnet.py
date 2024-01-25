@@ -52,9 +52,8 @@ class ResNet18(torchvision.models.resnet.ResNet):
         self.final_feat_dim = 512
 
     def load_sl_official_weights(self, progress=True):
-        state_dict = load_state_dict_from_url(torchvision.models.resnet.model_urls['resnet18'],
-                                              progress=progress)
-
+        #state_dict = load_state_dict_from_url(torchvision.models.resnet.model_urls['resnet18'],progress=progress)
+        state_dict=torch.hub.load_state_dict_from_url(torchvision.models.ResNet18_Weights.IMAGENET1K_V1.url)
         del state_dict['conv1.weight']
         missing, unexpected = self.load_state_dict(state_dict, strict=False)
         # if len(missing) > 0:
