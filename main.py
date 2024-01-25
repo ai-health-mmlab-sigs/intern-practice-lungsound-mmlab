@@ -4,7 +4,7 @@ import sys
 import json
 import warnings
 warnings.filterwarnings("ignore")
-
+import gc
 import math
 import time
 import random
@@ -304,8 +304,7 @@ def set_model(args):
         criterion = [criterion.cuda(), PatchMixConLoss(temperature=args.temperature).cuda()]
 
     if torch.cuda.device_count() > 1:
-        model = torch.nn.DataParallel(model)
-        
+        model = torch.nn.DataParallel(model) 
     model.cuda()
     classifier.cuda()
     projector.cuda()
@@ -325,7 +324,6 @@ def train(train_loader, model, classifier, projector, criterion, optimizer, epoc
     data_time = AverageMeter()
     losses = AverageMeter()
     top1 = AverageMeter()
-
     end = time.time()
     for idx, (images, labels, metadata) in enumerate(train_loader):
         if args.ma_update:
@@ -338,20 +336,17 @@ def train(train_loader, model, classifier, projector, criterion, optimizer, epoc
         images = images.cuda(non_blocking=True)
         labels = labels.cuda(non_blocking=True)
         bsz = labels.shape[0]
-
         warmup_learning_rate(args, epoch, idx, len(train_loader), optimizer)
-
         with torch.cuda.amp.autocast():
             if args.method == 'ce':
+                gc.collect()
                 features = model(images)
                 output = classifier(features)
                 loss = criterion[0](output, labels)
-
             elif args.method == 'patchmix':
                 mix_images, labels_a, labels_b, lam, index = model(images, y=labels, patch_mix=True, time_domain=args.time_domain)
                 output = classifier(mix_images)
                 loss = criterion[1](output, labels_a, labels_b, lam)
-
             elif args.method == 'patchmix_cl':
                 features = model(images)
                 output = classifier(features)
@@ -365,16 +360,13 @@ def train(train_loader, model, classifier, projector, criterion, optimizer, epoc
                     proj1 = deepcopy(projector(features).detach())
                 elif args.target_type == 'project_flow':
                     proj1 = projector(features)
-
                 # use 'patchmix_cl' for augmentation
                 mix_images, labels_a, labels_b, lam, index = model(images, y=labels, patch_mix=True, time_domain=args.time_domain)
                 proj2 = projector(mix_images)
                 loss += args.alpha * criterion[1](proj1, proj2, labels, labels_b, lam, index, args)
-
         losses.update(loss.item(), bsz)
         [acc1], _ = accuracy(output[:bsz], labels, topk=(1,))
         top1.update(acc1[0], bsz)
-
         optimizer.zero_grad()
         scaler.scale(loss).backward()
         scaler.step(optimizer)
@@ -383,7 +375,6 @@ def train(train_loader, model, classifier, projector, criterion, optimizer, epoc
         # measure elapsed time
         batch_time.update(time.time() - end)
         end = time.time()
-
         if args.ma_update:
             with torch.no_grad():
                 # exponential moving average update
@@ -468,10 +459,10 @@ def validate(val_loader, model, classifier, criterion, args, best_acc, best_mode
 
 
 def main():
+    gc.set_threshold(0)
     args = parse_args()
     with open(os.path.join(args.save_folder, 'train_args.json'), 'w') as f:
         json.dump(vars(args), f, indent=4)
-
     # fix seed
     random.seed(args.seed)
     np.random.seed(args.seed)
@@ -479,14 +470,14 @@ def main():
     torch.cuda.manual_seed(args.seed)
     cudnn.deterministic = True
     cudnn.benchmark = True
-    
     best_model = None
     if args.dataset == 'icbhi':
         best_acc = [0, 0, 0]  # Specificity, Sensitivity, Score
-
+    gc.collect()
     train_loader, val_loader, args = set_loader(args)
+    gc.collect()
     model, classifier, projector, criterion, optimizer = set_model(args)
-
+    gc.collect()
     if args.resume:
         if os.path.isfile(args.resume):
             print("=> loading checkpoint '{}'".format(args.resume))
@@ -503,15 +494,14 @@ def main():
 
     # use mix_precision:
     scaler = torch.cuda.amp.GradScaler()
-    
     print('*' * 20)
     if not args.eval:
         print('Training for {} epochs on {} dataset'.format(args.epochs, args.dataset))
         for epoch in range(args.start_epoch, args.epochs+1):
             adjust_learning_rate(args, optimizer, epoch)
-
             # train for one epoch
             time1 = time.time()
+            gc.collect()
             loss, acc = train(train_loader, model, classifier, projector, criterion, optimizer, epoch, args, scaler)
             time2 = time.time()
             print('Train epoch {}, total time {:.2f}, accuracy:{:.2f}'.format(

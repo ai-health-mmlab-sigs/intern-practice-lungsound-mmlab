@@ -247,6 +247,8 @@ class ICBHIDataset(Dataset):
                 save_image(audio_image, './')
                 self.dump_images = False
 
+
+        print("Length of self.audio_images:", len(self.audio_images))
         self.h, self.w, _ = self.audio_images[0][0][0].shape
         # ==========================================================================
 
